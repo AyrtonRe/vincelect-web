@@ -35,9 +35,9 @@
             </a>
             <nav class="main-nav">
                 <ul>
-                    <li><a href="/#inicio">Inicio</a></li>
-                    <li><a href="/#servicios">Servicios</a></li>
-                    <li><a href="/#hardware">Proyectos</a></li>
+                    <li><a href="/inicio">Inicio</a></li>
+                    <li><a href="/servicios">Servicios</a></li>
+                    <li><a href="/proyectos">Proyectos</a></li>
                     <!-- Le borramos el .html al final del href -->
                     <li><a href="/sobre-nosotros">Sobre nosotros</a></li>
                 </ul>
@@ -309,23 +309,5 @@
         }
     </script>
 
-    <script>
-        // Limpia el # de la URL al hacer clic en los enlaces internos sin romper el scroll
-        document.querySelectorAll('a[href^="/#"], a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const targetId = this.getAttribute('href').substring(this.getAttribute('href').indexOf('#'));
-                const targetElement = document.querySelector(targetId);
-                
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                    // Elimina el hashtag de la barra de direcciones limpiamente
-                    window.history.pushState("", document.title, window.location.pathname + window.location.search);
-                }
-            });
-        });
-    </script>
 </body>
 </html>
