@@ -422,14 +422,6 @@ a {
     border-color: var(--color-primary);
 }
 
-/* Información Técnica (Columna Derecha) */
-.tech-subtitle {
-    font-size: 0.7rem;
-    color: var(--color-text-muted);
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-}
-
 .tech-tags {
     display: flex;
     flex-wrap: wrap;
@@ -491,37 +483,6 @@ a {
     padding: 60px 0 20px;
 }
 
-.footer-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    margin-bottom: 60px;
-}
-
-.footer-brand h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-}
-
-.footer-brand p {
-    font-size: 0.9rem;
-    color: #AAAAAA;
-}
-
-.footer-info {
-    text-align: right;
-    font-size: 0.8rem;
-    color: #AAAAAA;
-}
-
-.footer-info p {
-    margin-bottom: 10px;
-}
-
-.footer-info a {
-    text-decoration: underline;
-}
-
 .footer-bottom {
     text-align: center;
     font-size: 0.7rem;
@@ -538,15 +499,6 @@ a {
         flex-direction: column;
         gap: 15px;
         padding-top: 20px;
-    }
-    
-    .footer-grid {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    
-    .footer-info {
-        text-align: center;
     }
 
     .modal-content {
