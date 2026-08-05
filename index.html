@@ -309,5 +309,23 @@
         }
     </script>
 
+    <script>
+        // Limpia el # de la URL al hacer clic en los enlaces internos sin romper el scroll
+        document.querySelectorAll('a[href^="/#"], a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(this.getAttribute('href').indexOf('#'));
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    // Elimina el hashtag de la barra de direcciones limpiamente
+                    window.history.pushState("", document.title, window.location.pathname + window.location.search);
+                }
+            });
+        });
+    </script>
 </body>
 </html>
