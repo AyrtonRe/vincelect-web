@@ -725,3 +725,23 @@ a {
         gap: 40px;
     }
 }
+/* --- ESTADO DEL FORMULARIO --- */
+.form-status-msg {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
+    min-height: 20px; /* Para que no salte el diseño al aparecer el texto */
+}
+
+.form-status-msg.error {
+    color: #ff4d4d; /* Rojo */
+}
+
+.form-status-msg.success {
+    color: #25d366; /* Verde tipo WhatsApp */
+}
+
+.form-status-msg.info {
+    color: #AAAAAA; /* Gris */
+}

@@ -140,8 +140,8 @@
 
             <!-- Columna Derecha: Formulario -->
             <div class="contact-form-wrapper">
-                <!-- IMPORTANTE: Reemplazar el action con el link de Formspree -->
-                <form action="https://formspree.io/f/xvkppjee" method="POST" class="contact-form">
+                <!-- Le agregamos el id="form-contacto" -->
+                <form id="form-contacto" action="https://formspree.io/f/xvkppjee" method="POST" class="contact-form">
                     <input type="text" name="nombre" placeholder="Nombre y apellido" required>
                     <input type="tel" name="telefono" placeholder="Número de contacto">
                     <input type="email" name="email" placeholder="E-mail" required>
@@ -158,9 +158,11 @@
                     <textarea id="mensaje" name="mensaje" placeholder="Detallá tu requerimiento..." rows="4" required></textarea>
                     
                     <button type="submit" class="btn-submit">Enviar</button>
+                    
+                    <!-- Acá van a aparecer los mensajes de error o éxito -->
+                    <p id="form-status" class="form-status-msg"></p>
                 </form>
             </div>
-
         </div>
         
         <div class="footer-bottom">
@@ -281,6 +283,59 @@
             <path d="M16.05 32C7.2 32 0 24.8 0 15.95 0 7.15 7.2 0 16.05 0 24.9 0 32.1 7.15 32.1 15.95 32.1 24.8 24.9 32 16.05 32zM16.05 2.7C8.7 2.7 2.75 8.65 2.75 15.95c0 2.9.95 5.6 2.65 7.85l-1.8 5.3 5.45-1.75c2.2 1.55 4.8 2.45 7.55 2.45 7.35 0 13.3-5.95 13.3-13.25S23.4 2.7 16.05 2.7zm7.8 13.1c-.2-.1-1.2-.6-1.4-.65-.2-.1-.3-.1-.4.1-.1.2-.5.65-.6.8-.1.15-.2.2-.4.1-.2-.1-1-.35-2-1.2-.7-.65-1.15-1.45-1.3-1.65-.1-.2 0-.3.1-.4.1-.1.2-.2.3-.3.1-.1.15-.2.2-.3s.05-.2.05-.4c0-.2-.1-.4-.2-.65-.1-.2-.5-1.2-.7-1.65-.2-.45-.4-.4-.55-.4s-.3-.05-.45-.05c-.15 0-.4.05-.6.25-.2.2-.8.8-.8 1.95s.8 2.3 1 2.5c.1.2 1.65 2.65 4.1 3.6 1.45.55 2.15.7 3.05.65.75-.05 1.2-.5 1.4-1 .2-.5.2-.95.1-1z"></path>
         </svg>
     </a>
+    
+<!-- Script para enviar formulario sin salir de la página y validar email -->
+    <script>
+        const formContacto = document.getElementById('form-contacto');
+        const statusMsg = document.getElementById('form-status');
+
+        if (formContacto) {
+            formContacto.addEventListener('submit', async function(event) {
+                // Evitamos que el formulario haga la redirección por defecto
+                event.preventDefault();
+                
+                // 1. VALIDACIÓN DE EMAIL
+                const emailInput = formContacto.querySelector('input[name="email"]').value;
+                // Esta expresión regular exige que haya texto, un @, texto, un punto, y más texto (ej: a@a.com)
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                
+                if (!emailRegex.test(emailInput)) {
+                    statusMsg.textContent = "⚠️ Por favor, ingresá un correo válido con dominio (ej: nombre@dominio.com).";
+                    statusMsg.className = "form-status-msg error";
+                    return; // Frenamos la ejecución acá, no se envía nada
+                }
+
+                // Si pasa la validación, mostramos que está enviando
+                statusMsg.textContent = "Enviando mensaje...";
+                statusMsg.className = "form-status-msg info";
+                
+                // 2. ENVÍO SILENCIOSO A FORMSPREE
+                const data = new FormData(formContacto);
+                
+                try {
+                    const response = await fetch(formContacto.action, {
+                        method: formContacto.method,
+                        body: data,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    });
+                    
+                    if (response.ok) {
+                        statusMsg.textContent = "✅ ¡Mensaje enviado con éxito! Te responderemos a la brevedad.";
+                        statusMsg.className = "form-status-msg success";
+                        formContacto.reset(); // Limpiamos los campos
+                    } else {
+                        statusMsg.textContent = "❌ Hubo un error de parte del servidor al enviar. Revisá los datos.";
+                        statusMsg.className = "form-status-msg error";
+                    }
+                } catch (error) {
+                    statusMsg.textContent = "❌ Error de conexión. Intentá de nuevo más tarde.";
+                    statusMsg.className = "form-status-msg error";
+                }
+            });
+        }
+    </script>
     
 </body>
 </html>

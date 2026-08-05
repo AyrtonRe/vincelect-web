@@ -87,7 +87,8 @@
 
             <!-- Columna Derecha: Formulario -->
             <div class="contact-form-wrapper">
-                <form action="https://formspree.io/f/xvkppjee" method="POST" class="contact-form">
+                <!-- Le agregamos el id="form-contacto" -->
+                <form id="form-contacto" action="https://formspree.io/f/xvkppjee" method="POST" class="contact-form">
                     <input type="text" name="nombre" placeholder="Nombre y apellido" required>
                     <input type="tel" name="telefono" placeholder="Número de contacto">
                     <input type="email" name="email" placeholder="E-mail" required>
@@ -104,6 +105,9 @@
                     <textarea id="mensaje" name="mensaje" placeholder="Detallá tu requerimiento..." rows="4" required></textarea>
                     
                     <button type="submit" class="btn-submit">Enviar</button>
+                    
+                    <!-- Acá van a aparecer los mensajes de error o éxito -->
+                    <p id="form-status" class="form-status-msg"></p>
                 </form>
             </div>
 
@@ -121,5 +125,59 @@
         </svg>
     </a>
 
+
+<!-- Script para enviar formulario sin salir de la página y validar email -->
+    <script>
+        const formContacto = document.getElementById('form-contacto');
+        const statusMsg = document.getElementById('form-status');
+
+        if (formContacto) {
+            formContacto.addEventListener('submit', async function(event) {
+                // Evitamos que el formulario haga la redirección por defecto
+                event.preventDefault();
+                
+                // 1. VALIDACIÓN DE EMAIL
+                const emailInput = formContacto.querySelector('input[name="email"]').value;
+                // Esta expresión regular exige que haya texto, un @, texto, un punto, y más texto (ej: a@a.com)
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                
+                if (!emailRegex.test(emailInput)) {
+                    statusMsg.textContent = "⚠️ Por favor, ingresá un correo válido con dominio (ej: nombre@dominio.com).";
+                    statusMsg.className = "form-status-msg error";
+                    return; // Frenamos la ejecución acá, no se envía nada
+                }
+
+                // Si pasa la validación, mostramos que está enviando
+                statusMsg.textContent = "Enviando mensaje...";
+                statusMsg.className = "form-status-msg info";
+                
+                // 2. ENVÍO SILENCIOSO A FORMSPREE
+                const data = new FormData(formContacto);
+                
+                try {
+                    const response = await fetch(formContacto.action, {
+                        method: formContacto.method,
+                        body: data,
+                        headers: {
+                            'Accept': 'application/json'
+                        }
+                    });
+                    
+                    if (response.ok) {
+                        statusMsg.textContent = "✅ ¡Mensaje enviado con éxito! Te responderemos a la brevedad.";
+                        statusMsg.className = "form-status-msg success";
+                        formContacto.reset(); // Limpiamos los campos
+                    } else {
+                        statusMsg.textContent = "❌ Hubo un error de parte del servidor al enviar. Revisá los datos.";
+                        statusMsg.className = "form-status-msg error";
+                    }
+                } catch (error) {
+                    statusMsg.textContent = "❌ Error de conexión. Intentá de nuevo más tarde.";
+                    statusMsg.className = "form-status-msg error";
+                }
+            });
+        }
+    </script>
+    
 </body>
 </html>
