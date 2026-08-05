@@ -34,7 +34,7 @@ const proyectos = [
             "Iluminación homogénea optimizando la reacción fotocatalítica.",
             "Interfaz amigable y modularidad para futuras expansiones."
         ],
-        imagenes: ["fotoreactor1.webp", "fotoreactor2.webp", "fotoreactor3.webp"]
+        imagenes: ["Fotoreactor1.webp", "Fotoreactor2.webp", "Fotoreactor3.webp"]
     },
     {
         id: "3",
@@ -126,7 +126,7 @@ const proyectos = [
             "Sostenibilidad en el tiempo, asegurando la facilidad de mantener el calentador."
         ],
         
-        imagenes: ["planta (2).webp", "planta (5).webp", "planta (6).webp", "planta (1).webp", "planta (3).webp"]
+        imagenes: ["Planta (2).webp", "Planta (5).webp", "Planta (6).webp", "Planta (1).webp", "Planta (3).webp"]
     },
     {
         id: "8",
