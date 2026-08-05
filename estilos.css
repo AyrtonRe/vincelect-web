@@ -528,34 +528,6 @@ a {
     color: #555555;
 }
 
-/* --- BANNER DE UBICACIÓN (SEO LOCAL) --- */
-.location-banner {
-    margin-top: 50px;
-    padding: 30px 20px;
-    background-color: var(--color-bg-light);
-    border: 1px dashed var(--color-primary-light);
-    border-radius: 6px;
-    transition: box-shadow 0.3s ease;
-}
-
-.location-banner:hover {
-    box-shadow: 0 5px 15px rgba(20, 58, 112, 0.08);
-}
-
-.location-banner h3 {
-    color: var(--color-primary);
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-}
-
-.location-banner p {
-    color: var(--color-text-main);
-    font-size: 0.95rem;
-    max-width: 850px; /* Para que el texto no quede exageradamente ancho en PC */
-    margin: 0 auto;
-    line-height: 1.7;
-}
-
 /* --- RESPONSIVE (Móviles y Tablets) --- */
 @media (max-width: 900px) {
     .grid-2, .modal-grid {
