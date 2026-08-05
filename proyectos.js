@@ -145,7 +145,7 @@ const proyectos = [
             "La flexibilidad del tejido permite que la manta se adapte a radios de curvatura pequeños sin estresar mecánicamente al conductor interno."
         ],
         
-        imagenes: ["Manta (4).webp", "Manta (2).webp", "Manta (3).webp", "Manta (6).webp", "Manta (1).webp"]
+        imagenes: ["Manta (4).webp", "Manta (2).webp", "manta (3).webp", "Manta (6).webp", "Manta (1).webp"]
     },
     {
         id: "9",
