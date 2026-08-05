@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metaetiquetas SEO -->
+    <meta name="description" content="Vincelect: Especialistas en diseño de circuitos electrónicos, prototipado, impresión 3D y soluciones de ingeniería integral.">
+    <meta name="keywords" content="electrónica, ingeniería, prototipado, impresión 3D, desarrollo de hardware, circuitos, microcontroladores, Argentina">
+    <meta name="author" content="Vincelect">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph (Redes Sociales) -->
+    <meta property="og:title" content="Vincelect | Ingeniería y Soluciones Electrónicas">
+    <meta property="og:description" content="Transformamos ideas complejas en soluciones electrónicas funcionales. Diseño, prototipado y ensamble de hardware.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vincelect.com.ar/">
+    
+    <title>Vincelect | Ingeniería y Soluciones Electrónicas</title>
+    <link rel="icon" type="image/png" href="rect5-7-7-removebg-preview.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="#inicio" class="logo">
+                <div class="logo-frame">
+                    <!-- Es necesario asegurar que este archivo exista en tu carpeta -->
+                    <img src="Captura de pantalla 2026-08-03 155434.webp" alt="Logotipo Vincelect">
+                </div>
+            </a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sistema">Nuestra Propuesta</a></li>
+                    <li><a href="#hardware">Proyectos</a></li>
+                    <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-bg-container">
+                <img src="https://labs.google.com/pomelli_downloads/websites/bnO6sp1mbyiep8OIJfd4Vg/resources/92DLu8nfXYM4UiYh5XEOLE?authuser=0" alt="Placa de circuito impreso electrónica - Fondo">
+            </div>
+            <div class="container hero-content">
+                <h1>VOCACIÓN POR LA ELECTRÓNICA</h1>
+                <p>Comprometidos con la innovación.</p>
+            </div>
+        </section>
+
+        <section id="sistema" class="section-padding container">
+            <div class="section-title">
+                <h2>Nuestra propuesta</h2>
+            </div>
+            <div class="grid-2 align-start">
+                <div class="info-box">
+                    <span class="badge">SYS_INFO</span>
+                    <div class="box-content">
+                        <p>Nos especializamos en el diseño de circuitos electrónicos, el desarrollo de prototipos y la integración de tecnologías, combinando ingeniería, fabricación y validación en un mismo lugar.</p>
+                        <p>Desde la primera idea hasta la entrega del producto final, trabajamos de forma integral para que tu proyecto avance con solidez, eficiencia y precisión.</p>
+                    </div>
+                </div>
+                <div class="img-wrapper">
+                    <img src="https://labs.google.com/pomelli_downloads/websites/bnO6sp1mbyiep8OIJfd4Vg/resources/a3tjYWuvgBb2-C1SKeUONO?authuser=0" alt="Equipamiento de diagnóstico y medición en laboratorio electrónico Vincelect">
+                </div>
+            </div>
+        </section>
+
+        <hr class="divider">
+
+        <section id="hardware" class="section-padding container">
+            <div class="section-title text-center">
+                <h2>Proyectos y trabajos</h2>
+            </div>
+            
+            <div class="portfolio-tabs">
+                <button class="tab-btn active" onclick="filtrarProyectos(event, 'todos')">Todos</button>
+                <button class="tab-btn" onclick="filtrarProyectos(event, 'desarrollo')">Desarrollos propios</button>
+                <button class="tab-btn" onclick="filtrarProyectos(event, 'armado')">Armados</button>
+                <button class="tab-btn" onclick="filtrarProyectos(event, 'reparacion')">Reparaciones</button>
+            </div>
+            
+            <div class="grid-2 gap-large" id="contenedor-tarjetas"></div>
+            <div id="contenedor-modales"></div>
+            
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>VINCELECT</h2>
+                <p>Ingeniería y Soluciones Electrónicas</p>
+            </div>
+            <div class="footer-info">
+                <p>Posicionamiento: Funcional utilitario</p>
+                <p>Enlace: <a href="https://ayrtonre.github.io/PortfolioWeb/" target="_blank" rel="noopener noreferrer">Portfolio Web</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Vincelect. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="proyectos.js"></script>
+
+    <script>
+        const contenedorTarjetas = document.getElementById('contenedor-tarjetas');
+        const contenedorModales = document.getElementById('contenedor-modales');
+
+        function filtrarProyectos(evento, filtro) {
+            if(evento) {
+                document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                evento.target.classList.add('active');
+            }
+
+            let htmlTarjetas = '';
+            let htmlModales = '';
+
+            const proyectosFiltrados = filtro === 'todos' 
+                ? proyectos 
+                : proyectos.filter(p => p.tipo === filtro);
+
+            proyectosFiltrados.forEach(proyecto => {
+                htmlTarjetas += `
+                <div class="project-card">
+                    <!-- Atributo alt dinámico mejorado para SEO -->
+                    <img src="${proyecto.imagenes[0]}" alt="Vista miniatura del proyecto: ${proyecto.titulo}" class="card-img">
+                    <span class="badge right">${proyecto.badge}</span>
+                    <h3>${proyecto.titulo}</h3>
+                    <p>${proyecto.descripcionCorta}</p>
+                    <a href="#modal-proyecto-${proyecto.id}" class="btn-primary">VER DETALLES Y GALERÍA</a>
+                </div>
+                `;
+
+                let techTags = '';
+                proyecto.tecnologias.forEach(tech => {
+                    techTags += `<span class="tech-tag">• ${tech}</span>`;
+                });
+
+                let thumbnails = '';
+                proyecto.imagenes.forEach(img => {
+                    // Atributo alt en miniaturas
+                    thumbnails += `<img src="${img}" alt="Miniatura de la galería de ${proyecto.titulo}" onclick="cambiarImagen('main-img-p${proyecto.id}', this.src)" class="thumb">`;
+                });
+
+                let beneficiosHtml = '';
+                if (proyecto.beneficios && proyecto.beneficios.length > 0) {
+                    let items = '';
+                    proyecto.beneficios.forEach(item => {
+                        items += `<li>${item}</li>`;
+                    });
+                    beneficiosHtml = `
+                    <div class="info-block">
+                        <h4 class="info-title">📈 4. BENEFICIOS</h4>
+                        <ul class="info-list">
+                            ${items}
+                        </ul>
+                    </div>
+                    `;
+                }
+
+                htmlModales += `
+                <div id="modal-proyecto-${proyecto.id}" class="modal-overlay">
+                    <div class="modal-content">
+                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <div class="modal-header">
+                            <span class="tag-title">${proyecto.tagCategoria}</span>
+                            <span class="tag-date">${proyecto.tagFecha}</span>
+                            <h2>${proyecto.titulo}</h2>
+                        </div>
+                        <div class="modal-grid">
+                            <div class="modal-gallery-container">
+                                <!-- Atributo alt dinámico principal para SEO -->
+                                <img id="main-img-p${proyecto.id}" src="${proyecto.imagenes[0]}" class="modal-main-img" alt="Imagen en detalle: ${proyecto.titulo}">
+                                <div class="modal-thumbnails">
+                                    ${thumbnails}
+                                </div>
+                            </div>
+                            <div class="modal-info">
+                                <h4 class="info-title">⚙️ 1. TECNOLOGÍAS APLICADAS</h4>
+                                <div class="tech-tags">
+                                    ${techTags}
+                                </div>
+                                <div class="info-block">
+                                    <h4 class="info-title">🎯 2. NECESIDAD A SOLUCIONAR</h4>
+                                    <p>${proyecto.necesidad}</p>
+                                </div>
+                                <div class="info-block">
+                                    <h4 class="info-title">💡 3. SOLUCIÓN DESARROLLADA</h4>
+                                    <p>${proyecto.solucion}</p>
+                                </div>
+                                ${beneficiosHtml}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                `;
+            });
+
+            contenedorTarjetas.innerHTML = htmlTarjetas;
+            contenedorModales.innerHTML = htmlModales;
+        }
+
+        function cambiarImagen(idImagenPrincipal, nuevaRuta) {
+            document.getElementById(idImagenPrincipal).src = nuevaRuta;
+        }
+
+        filtrarProyectos(null, 'todos');
+    </script>
+</body>
+</html>
