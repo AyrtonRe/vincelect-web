@@ -19,6 +19,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -26,6 +27,17 @@ body {
     color: var(--color-text-main);
     background-color: #F4F6F9;
     line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Reset global de imágenes: sin esto, cualquier img sin clase con reglas
+   propias (o con un ancho intrínseco grande) desborda el viewport en
+   vez de achicarse -> eso es lo que se ve "cortado" en celulares */
+img, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 a {
@@ -563,6 +575,61 @@ a {
     .whatsapp-float svg {
         width: 26px;
         height: 26px;
+    }
+}
+
+/* --- CELULARES (< 600px) --- */
+@media (max-width: 600px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .hero {
+        height: 60vh;
+        min-height: 380px;
+    }
+
+    .hero-content {
+        padding-left: 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        padding-left: 0;
+    }
+
+    .section-padding {
+        padding: 40px 15px;
+    }
+
+    .info-box {
+        padding: 30px 20px 20px;
+    }
+
+    .card-img {
+        height: 200px;
+    }
+
+    .modal-main-img {
+        height: 220px;
+    }
+
+    .thumb {
+        width: 60px;
+        height: 60px;
+    }
+
+    .footer-contact-grid {
+        gap: 30px;
+    }
+
+    .contact-info h2 {
+        font-size: 1.5rem;
     }
 }
 
