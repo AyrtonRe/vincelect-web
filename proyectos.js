@@ -88,7 +88,7 @@ const proyectos = [
             "Costo final de un 40% respecto a equipos de la misma capacidad.",
             "Equipo con capacidad para 3 matraces con control individual."
         ],
-        imagenes: ["KHJ1.webp", "KHJ3.webp", "KHJ4.webp", "KHJ5.webp", "KHJ6.webp"]
+        imagenes: ["KHJ1.webp", "KHJ3.webp", "KHJ4.webp", "KHJ2.webp", "KHJ6.webp"]
     },
     {
         id: "6",
