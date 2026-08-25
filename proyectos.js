@@ -167,7 +167,7 @@ const proyectos = [
         imagenes: ["hplc (1).webp", "hplc (5).webp", "hplc (2).webp", "hplc (3).webp"]
     },
     {
-    id: "10",
+    id: "11",
     tipo: "desarrollo",
     badge: "2024",
     titulo: "Desarrollo de agitador vertical de laboratorio con control PWM",
@@ -185,7 +185,7 @@ const proyectos = [
     imagenes: ["agitador (1).webp", "agitador (2).webp", "agitador (3).webp", "agitador (4).webp", "agitador (6).webp", "agitador (5).webp"]
     },
     {
-        id: "11",
+        id: "10",
         tipo: "armado",
         badge: "2025",
         titulo: "Controlador de temperatura PID",
