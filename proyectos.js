@@ -1,78 +1,206 @@
-<footer class="site-footer" id="contacto">
-        <div class="container footer-contact-grid">
-            
-            <!-- Columna Izquierda: Información -->
-            <div class="contact-info">
-                <h2>Solicitá Asesoramiento en Soluciones Electrónicas</h2>
-                <p class="subtitle-bold">¿Necesitás desarrollar un proyecto de hardware, fabricar un prototipo funcional o ejecutar el diagnóstico de instrumental complejo?</p>
-                
-                <p>En Vincelect desarrollo soluciones en diseño de circuitos, integración de sistemas, impresión 3D y reparación de equipamiento científico para empresas y laboratorios desde la ciudad de <strong>Santa Fe</strong> para toda la región.</p>
-                
-                <ul class="contact-list">
-                    <li>
-                        <!-- Ícono WhatsApp -->
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.487-1.761-1.663-2.06-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-                        <span>Consultas (+54 9) 3426313828</span>
-                    </li>
-                    <li>
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                        <span>contacto@vincelect.com.ar</span>
-                    </li>
-                </ul>
-
-                <div class="social-links">
-                    <a href="https://www.instagram.com/vincelect/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Vincelect">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.163 6.163 0 100 12.326 6.163 6.163 0 000-12.326zm0 10.162a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                    </a>
-                    <a href="https://www.facebook.com/profile.php?id=61593344301056" target="_blank" rel="noopener noreferrer" aria-label="Facebook de Vincelect">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M22 12.06C22 6.505 17.523 2 12 2S2 6.505 2 12.06c0 5.022 3.657 9.184 8.438 9.94v-7.03H7.898v-2.91h2.54V9.845c0-2.507 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562v1.877h2.773l-.443 2.91h-2.33V22c4.78-.756 8.437-4.918 8.437-9.94z"/></svg>
-                    </a>
-                    <a href="https://wa.me/5493426313828?text=Hola%20Vincelect,%20me%20comunico%20desde%20la%20web%20para%20hacer%20una%20consulta." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp de Vincelect">
-                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.487-1.761-1.663-2.06-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-                    </a>
-                </div>
-            </div>
-
-            <div class="contact-form-wrapper">
-                <form id="form-contacto" action="https://formspree.io/f/xvkppjee" method="POST" class="contact-form">
-                    <input type="text" name="nombre" placeholder="Nombre y apellido" required>
-                    <input type="tel" name="telefono" placeholder="Número de contacto">
-                    <input type="email" name="email" placeholder="E-mail" required>
-                    
-                    <select name="servicio" required>
-                        <option value="" disabled selected>Tipo de Servicio</option>
-                        <option value="desarrollo">Diseño y Desarrollo de Hardware</option>
-                        <option value="reparacion">Diagnóstico y Reparación de Instrumental</option>
-                        <option value="impresion">Fabricación e Impresión 3D</option>
-                        <option value="otro">Otro</option>
-                    </select>
-
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" placeholder="Detallá tu requerimiento..." rows="4" required></textarea>
-                    
-                    <button type="submit" class="btn-submit">Enviar</button>
-                    <!-- Acá van a aparecer los mensajes de error o éxito -->
-                    <p id="form-status" class="form-status-msg"></p>
-                </form>
-            </div>
-
-            <div class="map-section">
-                <!-- Si los servicios son solo en Santa Fe, debes actualizar también este texto -->
-                <h3 class="map-title">Brindo servicios principalmente en la ciudad de Santa Fe y alrededores.</h3>
-                <div class="map-wrapper">
-                    <iframe
-                        src="https://www.google.com/maps?q=Santa+Fe,+Provincia+de+Santa+Fe,+Argentina&z=13&output=embed"
-                        width="600" height="450"
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Área de cobertura de Vincelect: Santa Fe">
-                    </iframe>
-                </div>
-            </div>
-
-        </div>
+const proyectos = [
+    {
+        id: "1",
+        tipo: "desarrollo",
+        badge: "2026",
+        titulo: "Diseño de sistema adquisición de datos para cromatógrafo",
+        descripcionCorta: "Integración de electrónica para adquisión de sensores analógicos y software para el análisis y postprocesado de estos datos en cromatografos de gases.",
+        tagCategoria: "MICROCONTROLADORES",
+        tagFecha: "2026-02",
+        tecnologias: ["Microcontrolador", "Integración con Software", "Adquisición de alta precisión y velocidad"],
+        necesidad: "Se requería modernizar el sistema de lectura de un cromatógrafo de gases, reemplazando el registro obsoleto por un sistema digital que permitiera la captura, almacenamiento y análisis de datos en tiempo real de forma confiable.",
+        solucion: "Se diseñó y ensambló una placa de adquisición de datos (DAQ) a medida, utilizando microcontroladores y conversores ADC de alta resolución, integrada a un software de escritorio desarrollado para el postprocesado de la información.",
+        beneficios: [
+            "Mayor precisión en la lectura de picos cromatográficos.",
+            "Automatización del almacenamiento y gestión de resultados.",
+            "Reducción drástica de tiempos de análisis y exportación directa a formato digital."
+        ],
+        // Extensiones actualizadas a .webp
+        imagenes: ["croma2.webp", "croma1.webp", "croma3.webp"]
+    },
+    {
+        id: "2",
+        tipo: "desarrollo",
+        badge: "2026",
+        titulo: "Diseño y desarrollo de bioreactor para fotocatálisis",
+        descripcionCorta: "Desarrollo y ensamble de hardware para fuentes de alimentación, brazos mecánicos y bancos de pruebas con conectividad múltiple.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2026-05",
+        tecnologias: ["Electrónica Analógica", "Impresión 3D", "Diseño PCB"],
+        necesidad: "Necesidad de diseño de un reactor cilíndrico para fotocatálisis que requería iluminación uniforme de 360 grados con longitud de onda y potencia variable, a su vez mantenimiento de temperatura interna por debajo de los 60°C (límite estructural del PLA).",
+        solucion: "Fabricación de un dispositivo con control independiente de intensidad por longitud de onda (R, G, B) compatible estructuralmente con un agitador magnético inferior.",
+        beneficios: [
+            "Control térmico eficiente que previene la deformación del PLA.",
+            "Iluminación homogénea optimizando la reacción fotocatalítica.",
+            "Interfaz amigable y modularidad para futuras expansiones."
+        ],
+        imagenes: ["Fotoreactor1.webp", "Fotoreactor2.webp", "Fotoreactor3.webp"]
+    },
+    {
+        id: "3",
+        tipo: "desarrollo",
+        badge: "2026",
+        titulo: "Diseño y desarrollo de Dispositivo cromatografía TLC",
+        descripcionCorta: "Desarrollo y ensamble de Dispositivo para cromatografía TLC con Modulación PWM buck para LEDs UV (385nm/420nm).",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2026-05",
+        tecnologias: ["Electrónica Analógica", "Impresión 3D", "Diseño PCB"],
+        necesidad: "Se necesitaba un dispositivo para realizar cromatografías TLC, lo cual necesitaba iluminar con fotones de diferentes longitudes de onda, para este caso se controlaron 2 juegos leds de 385nm/420nm respectivamente, a su vez se incorporó un calce mecanico para acoplar tubos de 254 y 300nm. A su vez era imperativo que la estructura del dispositivo fuese totalmente opaca, para así evitar fugas de luz.",
+        solucion: "Fabricación de un dispositivo con control independiente de intensidad por longitud de onda (385nm/420nm), compatible mecanicamente con tubos de otras longitudes de onda. A su vez la estructura es compatible para registrar el proceso de cromatografía mediante un smartphone/camara.",
+        beneficios: [
+            "Dispositivo funcional, compacto y de muy bajo costo.",
+            "Iluminación homogénea optimizando la reacción fotocatalítica.",
+            "Estructura compatible con múltiples tubos de iluminación y formas de registro."
+        ],
+        imagenes: ["TLC1.webp", "TLC5.webp", "TLC2.webp", "TLC3.webp", "TLC4.webp"]
+    },
+    {
+        id: "4",
+        tipo: "desarrollo",
+        badge: "2026",
+        titulo: "Desarrollo de equipo potencioestato portatil",
+        descripcionCorta: "Desarrollo de un potenciostato destinado a Espectroscopía de Impedancia Electroquímica (EIS), Ciclovotamperometría (CV) y Chronoamperometría (CA) portatil, tanto el software de control en PC (HMI) como el firmware de adquisición.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2026-05",
+        tecnologias: ["Front-end analógico AD5940", "Impresión 3D", "Procesamiento matemático", "Diseño de PCB","Integración con software"],
+        necesidad: "Se requería un potencioestato para el análisis de muestras electroquimicas, debido al alto costo de estos (~10000USD) y la dificultad de conseguirlos en el país, se nos solicitó desarrollar uno desde cero.",
+        solucion: "Desarrollo de un equipo compacto y portátil, con las especificaciones de equipos comerciales a una fracción del precio de estos. Se desarrolló tanto el circuito eléctrico (basado en un AFE AD5940) con alimentación USB, así como el backend necesario para utilizarse mediante un microcontrolador. También se desarrolló el software HMI para la utilización del operario, priorizando la facilidad del uso del mismo.",
+        beneficios: [
+            "Dispositivo con precisión y exactitud de equipos comerciales.",
+            "Costo final de un 30% respecto a equipos de la misma capacidad.",
+            "Equipo compacto y de bajo consumo, ideal para utilizarse en análisis de campo."
+        ],
+        imagenes: ["Pot1.webp", "Pot2.webp", "Pot3.webp", "Pot4.webp"]
+    },
+    {
+        id: "5",
+        tipo: "desarrollo",
+        badge: "2025",
+        titulo: "Desarrollo de digestor Kjeldahl de multiples bloques",
+        descripcionCorta: "Diseño y Construcción de Digestor Kjeldahl de 3 Posiciones con Control Individual de hasta 400W por bloque.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2026-05",
+        tecnologias: ["Impresión 3D","Diseño de PCB","SCR","Aislación térmica"],
+        necesidad: "Se requería desarrollar un equipo de laboratorio destinado a realizar el método Kjeldahl (digestión de muestras para análisis de nitrógeno) con capacidad para procesar tres muestras de forma simultánea. Entre sus requerimientos principales, el diseño debía integrar un control de temperatura independiente para cada plaza y una arquitectura modular que permitiera el reemplazo rápido de los elementos calefactores para asegurar una óptima mantenibilidad. Además, era fundamental que el sistema incluyera soporte para matraces de 800 ml y contara con una aislación térmica eficiente, indispensable para proteger tanto al usuario como a los componentes electrónicos del equipo. Debido a la dificultad de conseguir este producto en el país, se nos solicitó el diseño del mismo priorizando la facilidad de reparación de este.",
+        solucion: "El proyecto comenzó con el modelado de la estructura en SolidWorks para validar las dimensiones y el flujo de calor, lo que permitió fabricar tres chimeneas internas de aluminio diseñadas para dirigir la temperatura hacia el balón. Como elemento calefactor se utilizaron resistencias de Nicrom bobinadas manualmente sobre bases de ladrillo refractario mecanizado e instaladas en la base de dichas chimeneas. El montaje y la aislación se completaron colocando mallas de fibra de vidrio en la parte superior para asentar los matraces y rellenando todo el volumen vacío con lana de vidrio. Durante las pruebas iniciales, se detectó que la radiación térmica descendente del ladrillo carbonizaba el aislante de los cables de alimentación; este fallo se resolvió rápidamente rediseñando el montaje para incluir una capa de fibra de vidrio debajo del refractario, logrando así desacoplar térmicamente las conexiones eléctricas. Finalmente, el trabajo concluyó con el acabado estético mediante la pintura del gabinete, el montaje de las cajas de control externas y la conexión de la vidriería correspondiente al sistema de extracción de gases.",
+        beneficios: [
+            "Dispositivo de alta potencia para digestiones de alto volumen.",
+            "Costo final de un 40% respecto a equipos de la misma capacidad.",
+            "Equipo con capacidad para 3 matraces con control individual."
+        ],
+        imagenes: ["KHJ1.webp", "KHJ3.webp", "KHJ4.webp", "KHJ6.webp"]
+    },
+    {
+        id: "6",
+        tipo: "armado",
+        badge: "2026",
+        titulo: "Controlador de temperatura PID",
+        descripcionCorta: "Se realizó el diseño de la estructura y conexión eléctrica para un controlador de temperatura, se eligió un control PID para asegurar el cumplimiento del proceso.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2026-05",
         
-        <div class="footer-bottom">
-            <p>© 2026 Vincelect. Todos los derechos reservados. Santa Fe, Argentina.</p>
-        </div>
-    </footer>
+        tecnologias: ["Control PID", "Diseño de estructura", "Conexión eléctrica"],
+        necesidad: "Se requería un sistema confiable para el control de temperatura del proceso.",
+        solucion: "Se armó un controlador PID asegurando el cumplimiento de las variables térmicas requeridas.",
+        beneficios: [
+            "Mayor precisión en el control de temperatura.",
+            "Cumplimiento estricto del proceso."
+        ],
+        
+        imagenes: ["PID1.webp", "PID2.webp", "PID3.webp", "PID4.webp"]
+    },
+    {
+        id: "7",
+        tipo: "armado",
+        badge: "2025",
+        titulo: "Calentador e instalación electrica para planta piloto",
+        descripcionCorta: "Diseño de un calentador de agua para extracción de aceite de uva en planta piloto, en conjunto con esto se realizó la instalación electrica del controlador de temperatura y los tableros de alimentación necesarios.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2025-05",
+        
+        tecnologias: ["Control de temperatura", "Diseño de tablero eléctrico", "Conexión eléctrica"],
+        necesidad: "Se requería un sistema para calentar agua y controlar con precisión la temperatura de la misma, en conjunto con esto se necesitaba el tablero de conexión.",
+        solucion: "Se armó el calentador basado en una resistencia eléctrica comercial, priorizando el mantenimiento de la misma, la estructura de esta fue realizada en acero inoxidable debido a la necesidad de estar constantemente en agua. Se aisló térmica y electricamente el exterior del recipiente para asegurar la seguridad del personal, la instalación y el proceso. Junto con esto se armó el tablero eléctrico y el controlador de temperatura.",
+        beneficios: [
+            "Control preciso de la temperatura, utilizando controlador mediante SSR.",
+            "Sostenibilidad en el tiempo, asegurando la facilidad de mantener el calentador."
+        ],
+        
+        imagenes: ["Planta (2).webp", "Planta (5).webp", "Planta (6).webp", "Planta (1).webp", "Planta (3).webp"]
+    },
+    {
+        id: "8",
+        tipo: "desarrollo",
+        badge: "2025",
+        titulo: "Diseño y Prototipado de Manta Calefactora Flexible",
+        descripcionCorta: "Diseño de un calentador de agua para extracción de aceite de uva en planta piloto, en conjunto con esto se realizó la instalación electrica del controlador de temperatura y los tableros de alimentación necesarios.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2025-05",
+        
+        tecnologias: ["Control de temperatura", "Calentadores flexibles", "Aislamiento térmico"],
+        necesidad: "Necesidad de aplicar calor controlado en superficies con geometría irregular o cilíndrica (ej. columnas de cromatografía) donde las placas rígidas no son viables. Se requiere un elemento flexible, capaz de soportar altas temperaturas y con aislamiento eléctrico robusto.",
+        solucion: "El desarrollo comenzó con el diseño teórico de una carga resistiva de 73 Ω, empleando 13 metros de alambre de Nicrom de 0.5 mm para proyectar una potencia de 660 W (3 A). Para su manufactura, el conductor fue encapsulado en vainas de fibra de vidrio y tejido en un patrón de serpentina sobre una malla estructural. Durante las pruebas de carga, se detectó que la potencia nominal generaba temperaturas excesivas en los puntos de cruce, creando zonas de calor crítico (hotspots). Para mitigar este problema, se aplicó un ajuste operativo limitando la alimentación a 2.2 A (400 W), lo que permitió estabilizar la temperatura máxima en 400 °C dentro de los puntos críticos. Finalmente, el equipo superó la validación mediante una prueba de estabilidad térmica a 300 W, logrando mantener una temperatura constante de 270 °C sobre el objeto de ensayo.",
+        beneficios: [
+            "El diseño prioriza la seguridad operativa mediante un doble aislamiento físico.",
+            "La flexibilidad del tejido permite que la manta se adapte a radios de curvatura pequeños sin estresar mecánicamente al conductor interno."
+        ],
+        
+        imagenes: ["Manta (4).webp", "Manta (2).webp", "manta (3).webp", "Manta (6).webp", "Manta (1).webp"]
+    },
+    {
+        id: "9",
+        tipo: "reparacion",
+        badge: "2025",
+        titulo: "Reparación Integral y Rediseño de Interfaz HMI - Cromatógrafo HPLC Konik A5000",
+        descripcionCorta: "Diagnóstico y reparación de cromatografo líquido Konik, desde la parte electrónica hasta el rediseño del interfaz HMI.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2025-05",
+        
+        tecnologias: ["Electrónica analógica","Diseño HMI"],
+        necesidad: "El equipo se encontraba inoperativo. La etapa de potencia (bombas hidráulicas y elementos calefactores) encendía correctamente, pero la etapa de control lógico y la Interfaz Hombre-Máquina (HMI) no daban respuesta, impidiendo cualquier configuración o uso del equipo.",
+        solucion: "El proceso comenzó con el despiece completo del equipo para su inspección visual, donde se detectaron daños físicos severos por carbonización en los pines de comunicación y resistencias limitadoras abiertas; evidencias claras de una falla catastrófica provocada por un cortocircuito o una conexión externa errónea. Para solucionarlo, primero se sanearon las pistas de la placa (PCB), asegurando la continuidad mediante el reemplazo de los pines dañados con soldadura directa de cableado. Luego, el diagnóstico de la interfaz (HMI) permitió rastrear la falla hasta la lógica de control, por lo que se reemplazaron dos circuitos integrados fundamentales (un SN7442 y un ULN2003) encargados del manejo de los displays y la multiplexación. Finalmente, debido a que el teclado de membrana original presentaba daños irreversibles, se aplicó ingeniería inversa sobre su matriz para diseñar y fabricar un módulo completamente nuevo, desarrollando desde la electrónica de los pulsadores y la gráfica del panel frontal, hasta su adaptación mecánica definitiva en el chasis original.",
+        beneficios: [
+            "El diseño prioriza la seguridad operativa mediante un doble aislamiento físico.",
+            "La flexibilidad del tejido permite que la manta se adapte a radios de curvatura pequeños sin estresar mecánicamente al conductor interno."
+        ],
+        
+        imagenes: ["hplc (1).webp", "hplc (5).webp", "hplc (2).webp", "hplc (3).webp"]
+    },
+    {
+    id: "11",
+    tipo: "desarrollo",
+    badge: "2024",
+    titulo: "Desarrollo de agitador vertical de laboratorio con control PWM",
+    descripcionCorta: "Diseño y ensamble de agitador vertical de 1500 RPM con motor brushless, regulación de velocidad por PWM y timer configurable para control del tiempo de funcionamiento.",
+    tagCategoria: "VALIDACIÓN",
+    tagFecha: "2024-06",
+    tecnologias: ["Motor Brushless", "Control PWM", "Impresión 3D", "Timer de proceso"],
+    necesidad: "Se requería un agitador vertical de laboratorio capaz de sostener un torque constante durante todo el rango de velocidades, con una regulación fina y continua de las revoluciones, además de un control de tiempo de funcionamiento para automatizar el proceso de agitación.",
+    solucion: "Se desarrolló un agitador vertical con motor brushless de 1500 RPM y 0,8 Kg/cm de torque, regulado mediante PWM, lo que permite mantener en gran parte el torque inicial con una variación prácticamente continua/finita de las revoluciones. Se incorporó un timer para setear el tiempo de funcionamiento del equipo, y un sistema de regulación de posición con ajuste tanto de verticalidad como de horizontalidad. El uso de un motor brushless garantiza una gran durabilidad para uso continuo.",
+    beneficios: [
+        "Torque prácticamente constante en todo el rango de velocidades gracias al control PWM.",
+        "Alta durabilidad para uso continuo gracias al motor brushless.",
+        "Ajuste de posición en vertical y horizontal, y timer integrado para automatizar el proceso."
+    ],
+    imagenes: ["agitador (1).webp", "agitador (2).webp", "agitador (3).webp", "agitador (4).webp", "agitador (6).webp", "agitador (5).webp"]
+    },
+    {
+        id: "10",
+        tipo: "armado",
+        badge: "2025",
+        titulo: "Controlador de temperatura PID",
+        descripcionCorta: "Se realizó el diseño de la estructura y conexión eléctrica para un controlador de temperatura, se eligió un control PID para asegurar el cumplimiento del proceso.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2025-05",
+        
+        tecnologias: ["Control PID", "Diseño de estructura", "Conexión eléctrica"],
+        necesidad: "Se requería un sistema confiable para el control de temperatura del proceso.",
+        solucion: "Se armó un controlador PID asegurando el cumplimiento de las variables térmicas requeridas.",
+        beneficios: [
+            "Mayor precisión en el control de temperatura.",
+            "Cumplimiento estricto del proceso."
+        ],
+        
+        imagenes: ["PID2 (2).webp", "PID2 (3).webp", "PID2 (4).webp", "PID2 (1).webp"]
+    }
+];
