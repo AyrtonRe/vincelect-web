@@ -169,7 +169,7 @@ const proyectos = [
     {
     id: "10",
     tipo: "desarrollo",
-    badge: "2026",
+    badge: "2024",
     titulo: "Desarrollo de agitador vertical de laboratorio con control PWM",
     descripcionCorta: "Diseño y ensamble de agitador vertical de 1500 RPM con motor brushless, regulación de velocidad por PWM y timer configurable para control del tiempo de funcionamiento.",
     tagCategoria: "VALIDACIÓN",
@@ -191,7 +191,7 @@ const proyectos = [
         titulo: "Controlador de temperatura PID",
         descripcionCorta: "Se realizó el diseño de la estructura y conexión eléctrica para un controlador de temperatura, se eligió un control PID para asegurar el cumplimiento del proceso.",
         tagCategoria: "VALIDACIÓN",
-        tagFecha: "2026-05",
+        tagFecha: "2025-05",
         
         tecnologias: ["Control PID", "Diseño de estructura", "Conexión eléctrica"],
         necesidad: "Se requería un sistema confiable para el control de temperatura del proceso.",
