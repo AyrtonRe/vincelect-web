@@ -182,8 +182,8 @@ const proyectos = [
         "Alta durabilidad para uso continuo gracias al motor brushless.",
         "Ajuste de posición en vertical y horizontal, y timer integrado para automatizar el proceso."
     ],
-    imagenes: ["Agitador (1).webp", "Agitador (2).webp", "Agitador (3).webp", "Agitador (4).webp","Agitador (6).webp", "Agitador (5).webp"]
-},
+    imagenes: ["agitador (1).webp", "agitador (2).webp", "agitador (3).webp", "agitador (4).webp", "agitador (6).webp", "agitador (5).webp"]
+    },
     {
         id: "11",
         tipo: "armado",
