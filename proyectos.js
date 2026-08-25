@@ -184,4 +184,23 @@ const proyectos = [
     ],
     imagenes: ["Agitador (1).webp", "Agitador (2).webp", "Agitador (3).webp", "Agitador (4).webp","Agitador (6).webp", "Agitador (5).webp"]
 },
+    {
+        id: "11",
+        tipo: "armado",
+        badge: "2025",
+        titulo: "Controlador de temperatura PID",
+        descripcionCorta: "Se realizó el diseño de la estructura y conexión eléctrica para un controlador de temperatura, se eligió un control PID para asegurar el cumplimiento del proceso.",
+        tagCategoria: "VALIDACIÓN",
+        tagFecha: "2026-05",
+        
+        tecnologias: ["Control PID", "Diseño de estructura", "Conexión eléctrica"],
+        necesidad: "Se requería un sistema confiable para el control de temperatura del proceso.",
+        solucion: "Se armó un controlador PID asegurando el cumplimiento de las variables térmicas requeridas.",
+        beneficios: [
+            "Mayor precisión en el control de temperatura.",
+            "Cumplimiento estricto del proceso."
+        ],
+        
+        imagenes: ["PID2 (2).webp", "PID2 (3).webp", "PID2 (4).webp", "PID2 (1).webp"]
+    }
 ];
