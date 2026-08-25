@@ -165,5 +165,23 @@ const proyectos = [
         ],
         
         imagenes: ["hplc (1).webp", "hplc (5).webp", "hplc (2).webp", "hplc (3).webp"]
-    }
+    },
+    {
+    id: "10",
+    tipo: "desarrollo",
+    badge: "2026",
+    titulo: "Desarrollo de agitador vertical de laboratorio con control PWM",
+    descripcionCorta: "Diseño y ensamble de agitador vertical de 1500 RPM con motor brushless, regulación de velocidad por PWM y timer configurable para control del tiempo de funcionamiento.",
+    tagCategoria: "VALIDACIÓN",
+    tagFecha: "2024-06",
+    tecnologias: ["Motor Brushless", "Control PWM", "Impresión 3D", "Timer de proceso"],
+    necesidad: "Se requería un agitador vertical de laboratorio capaz de sostener un torque constante durante todo el rango de velocidades, con una regulación fina y continua de las revoluciones, además de un control de tiempo de funcionamiento para automatizar el proceso de agitación.",
+    solucion: "Se desarrolló un agitador vertical con motor brushless de 1500 RPM y 0,8 Kg/cm de torque, regulado mediante PWM, lo que permite mantener en gran parte el torque inicial con una variación prácticamente continua/finita de las revoluciones. Se incorporó un timer para setear el tiempo de funcionamiento del equipo, y un sistema de regulación de posición con ajuste tanto de verticalidad como de horizontalidad. El uso de un motor brushless garantiza una gran durabilidad para uso continuo.",
+    beneficios: [
+        "Torque prácticamente constante en todo el rango de velocidades gracias al control PWM.",
+        "Alta durabilidad para uso continuo gracias al motor brushless.",
+        "Ajuste de posición en vertical y horizontal, y timer integrado para automatizar el proceso."
+    ],
+    imagenes: ["Agitador (1).webp", "Agitador (2).webp", "Agitador (3).webp", "Agitador (4).webp","Agitador (6).webp", "Agitador (5).webp"]
+},
 ];
