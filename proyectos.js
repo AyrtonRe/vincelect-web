@@ -202,5 +202,23 @@ const proyectos = [
         ],
         
         imagenes: ["PID2 (2).webp", "PID2 (3).webp", "PID2 (4).webp", "PID2 (1).webp"]
-    }
+    },
+    {
+    id: "12",
+    tipo: "reparacion",
+    badge: "2025",
+    titulo: "Reparación de Agitador Calentador de Laboratorio (DLAB MS-H-S)",
+    descripcionCorta: "Diagnóstico y reparación de agitador calentador magnético, con reemplazo de fuente de alimentación, reconstrucción de pistas del motor dañadas por corrosión química y diseño de protección antisalpicaduras.",
+    tagCategoria: "REPARACIÓN",
+    tagFecha: "2025-03",
+    tecnologias: ["Electrónica analógica", "Reconstrucción de PCB", "Impresión 3D", "Fuentes conmutadas"],
+    necesidad: "El equipo se encontraba fuera de servicio, con el transformador de la fuente principal de alimentación quemado. Adicionalmente, la placa presentaba pistas comidas por ataque químico en la zona del motor, y un potenciómetro también resultó afectado por la misma corrosión, comprometiendo la calibración del equipo.",
+    solucion: "Se reemplazó la fuente de alimentación principal por una nueva, dado que el transformador original se encontraba irreparablemente quemado. Sobre la placa principal, se reconstruyeron las pistas de la etapa del motor que habían sido comidas por el químico, restableciendo la continuidad eléctrica, y se reemplazó el potenciómetro dañado por corrosión. Como medida preventiva ante una futura recurrencia, se diseñó e imprimió en 3D una pieza antisalpicaduras para proteger la placa de nuevos derrames.",
+    beneficios: [
+        "Recuperación total de la funcionalidad del equipo a bajo costo frente a su reemplazo.",
+        "Eliminación de la causa raíz de la falla mediante la protección antisalpicaduras diseñada a medida.",
+        "Mayor vida útil del equipo ante futuros derrames de reactivos."
+    ],
+    imagenes: ["Agitador-Repar (2).webp", "Agitador-Repar (1).webp", "Agitador-Repar (3).webp", "Agitador-Repar (4).webp", "Agitador-Repar (5).webp", "Agitador-Repar (6).webp", "Agitador-Repar (7).webp"]
+}
 ];
