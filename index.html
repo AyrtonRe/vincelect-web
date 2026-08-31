@@ -254,9 +254,10 @@
             let htmlTarjetas = '';
             let htmlModales = '';
 
-            const proyectosFiltrados = filtro === 'todos' 
+            const proyectosFiltrados = (filtro === 'todos' 
                 ? proyectos 
-                : proyectos.filter(p => p.tipo === filtro);
+                : proyectos.filter(p => p.tipo === filtro)
+            ).slice().sort((a, b) => b.tagFecha.localeCompare(a.tagFecha));
 
             proyectosFiltrados.forEach(proyecto => {
                 htmlTarjetas += `
