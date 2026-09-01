@@ -828,7 +828,7 @@
         // clickeando el fondo oscuro, sin depender de que la × sea clickeable.
         function cerrarModalAbierto() {
             if (document.querySelector('.modal-overlay:target')) {
-                history.replaceState(null, '', window.location.pathname + window.location.search);
+                window.location.hash = '#hardware';
             }
         }
 
