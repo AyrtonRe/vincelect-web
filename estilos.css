@@ -504,7 +504,7 @@ a {
 }
 
 /* --- RESPONSIVE (Móviles y Tablets) --- */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .grid-2, .modal-grid {
         grid-template-columns: 1fr;
     }
@@ -536,7 +536,7 @@ a {
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .grid-3 {
         grid-template-columns: 1fr;
     }
@@ -567,7 +567,7 @@ a {
     transform: scale(1.1);
 }
 
-@media (max-width: 1024px) {
+@media (max-width:768px) {
     .whatsapp-float {
         width: 50px;
         height: 50px;
@@ -581,7 +581,7 @@ a {
 }
 
 /* --- CELULARES (< 600px) --- */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .container {
         padding: 0 15px;
     }
@@ -741,7 +741,7 @@ a {
     display: block;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .map-wrapper {
         height: 260px;
     }
@@ -805,7 +805,7 @@ a {
     padding-top: 20px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .footer-contact-grid {
         grid-template-columns: 1fr;
         gap: 40px;
