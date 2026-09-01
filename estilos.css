@@ -588,7 +588,7 @@ a {
 
     .hero {
         height: 60vh;
-        min-height: 380px;
+        min-height: 230px;
     }
 
     .hero-content {
@@ -596,12 +596,12 @@ a {
     }
 
     .hero h1 {
-        font-size: 2rem;
+        font-size: 1rem;
         letter-spacing: 1px;
     }
 
     .hero p {
-        font-size: 1rem;
+        font-size: 0.5rem;
         padding-left: 0;
     }
 
