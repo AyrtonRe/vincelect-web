@@ -360,6 +360,8 @@ a {
     color: var(--color-text-muted);
     font-weight: bold;
     transition: color 0.3s;
+    z-index: 10;
+    cursor: pointer;
 }
 
 .modal-close:hover {
