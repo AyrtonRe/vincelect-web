@@ -827,20 +827,37 @@
         // ":target" y se cierre. Así el modal se puede cerrar con Escape o
         // clickeando el fondo oscuro, sin depender de que la × sea clickeable.
         function cerrarModalAbierto() {
-            if (document.querySelector('.modal-overlay:target')) {
-                window.location.hash = '#hardware';
-            }
-        }
+                    // Se evalúa directamente la URL en lugar de consultar el DOM
+                    if (window.location.hash.includes('#modal-proyecto')) {
+                        // 1. Se captura la posición vertical actual
+                        const scrollY = window.scrollY;
+                        
+                        // 2. Se asigna un hash inexistente para forzar la desactivación del :target
+                        window.location.hash = '#_';
+                        
+                        // 3. Se limpia la barra de direcciones usando la History API
+                        history.replaceState(null, '', window.location.pathname + window.location.search);
+                        
+                        // 4. Se restaura la posición vertical para evitar saltos en la pantalla
+                        window.scrollTo(0, scrollY);
+                    }
+                }
 
-        document.addEventListener('keydown', (evento) => {
-            if (evento.key === 'Escape') cerrarModalAbierto();
-        });
+                document.addEventListener('keydown', (evento) => {
+                    if (evento.key === 'Escape') {
+                        cerrarModalAbierto();
+                    }
+                });
 
-        document.querySelectorAll('.modal-overlay').forEach((overlay) => {
-            overlay.addEventListener('click', (evento) => {
-                if (evento.target === overlay) cerrarModalAbierto();
-            });
-        });
+                document.querySelectorAll('.modal-overlay').forEach((overlay) => {
+                    overlay.addEventListener('click', (evento) => {
+                        // La condición garantiza que el clic provenga estrictamente del fondo oscuro
+                        if (evento.target === overlay) {
+                            evento.preventDefault();
+                            cerrarModalAbierto();
+                        }
+                    });
+                });
     </script>
     
     <!-- Script Formulario sin recarga y validación -->
