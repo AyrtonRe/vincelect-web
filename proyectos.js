@@ -16,7 +16,7 @@ const proyectos = [
             "Reducción drástica de tiempos de análisis y exportación directa a formato digital."
         ],
         // Extensiones actualizadas a .webp
-        imagenes: ["croma2.webp", "croma1.webp", "croma3.webp"]
+        imagenes: ["daq-cromatografo-gases-01.webp", "daq-cromatografo-gases-02.webp", "daq-cromatografo-gases-03.webp"]
     },
     {
         id: "2",
@@ -34,7 +34,7 @@ const proyectos = [
             "Iluminación homogénea optimizando la reacción fotocatalítica.",
             "Interfaz amigable y modularidad para futuras expansiones."
         ],
-        imagenes: ["Fotoreactor1.webp", "Fotoreactor2.webp", "Fotoreactor3.webp"]
+        imagenes: ["bioreactor-fotocatalisis-01.webp", "bioreactor-fotocatalisis-02.webp", "bioreactor-fotocatalisis-03.webp"]
     },
     {
         id: "3",
@@ -52,7 +52,7 @@ const proyectos = [
             "Iluminación homogénea optimizando la reacción fotocatalítica.",
             "Estructura compatible con múltiples tubos de iluminación y formas de registro."
         ],
-        imagenes: ["TLC1.webp", "TLC5.webp", "TLC2.webp", "TLC3.webp", "TLC4.webp"]
+        imagenes: ["dispositivo-cromatografia-tlc-01.webp", "dispositivo-cromatografia-tlc-02.webp", "dispositivo-cromatografia-tlc-03.webp", "dispositivo-cromatografia-tlc-04.webp", "dispositivo-cromatografia-tlc-05.webp"]
     },
     {
         id: "4",
@@ -70,7 +70,7 @@ const proyectos = [
             "Costo final de un 30% respecto a equipos de la misma capacidad.",
             "Equipo compacto y de bajo consumo, ideal para utilizarse en análisis de campo."
         ],
-        imagenes: ["Pot1.webp", "Pot2.webp", "Pot3.webp", "Pot4.webp"]
+        imagenes: ["potenciostato-portatil-eis-01.webp", "potenciostato-portatil-eis-02.webp", "potenciostato-portatil-eis-03.webp", "potenciostato-portatil-eis-04.webp"]
     },
     {
         id: "5",
@@ -88,7 +88,7 @@ const proyectos = [
             "Costo final de un 40% respecto a equipos de la misma capacidad.",
             "Equipo con capacidad para 3 matraces con control individual."
         ],
-        imagenes: ["KHJ1.webp", "KHJ3.webp", "KHJ4.webp", "KHJ6.webp"]
+        imagenes: ["digestor-kjeldahl-3-bloques-01.webp", "digestor-kjeldahl-3-bloques-02.webp", "digestor-kjeldahl-3-bloques-03.webp", "digestor-kjeldahl-3-bloques-04.webp"]
     },
     {
         id: "6",
@@ -107,7 +107,7 @@ const proyectos = [
             "Cumplimiento estricto del proceso."
         ],
         
-        imagenes: ["PID1.webp", "PID2.webp", "PID3.webp", "PID4.webp"]
+        imagenes: ["controlador-temperatura-pid-2026-01.webp", "controlador-temperatura-pid-2026-02.webp", "controlador-temperatura-pid-2026-03.webp", "controlador-temperatura-pid-2026-04.webp"]
     },
     {
         id: "7",
@@ -126,7 +126,7 @@ const proyectos = [
             "Sostenibilidad en el tiempo, asegurando la facilidad de mantener el calentador."
         ],
         
-        imagenes: ["Planta (2).webp", "Planta (5).webp", "Planta (6).webp", "Planta (1).webp", "Planta (3).webp"]
+        imagenes: ["calentador-planta-piloto-aceite-uva-01.webp", "calentador-planta-piloto-aceite-uva-02.webp", "calentador-planta-piloto-aceite-uva-03.webp", "calentador-planta-piloto-aceite-uva-04.webp", "calentador-planta-piloto-aceite-uva-05.webp"]
     },
     {
         id: "8",
@@ -145,7 +145,7 @@ const proyectos = [
             "La flexibilidad del tejido permite que la manta se adapte a radios de curvatura pequeños sin estresar mecánicamente al conductor interno."
         ],
         
-        imagenes: ["Manta (4).webp", "Manta (2).webp", "manta (3).webp", "Manta (6).webp", "Manta (1).webp"]
+        imagenes: ["manta-calefactora-flexible-01.webp", "manta-calefactora-flexible-02.webp", "manta-calefactora-flexible-03.webp", "manta-calefactora-flexible-04.webp", "manta-calefactora-flexible-05.webp"]
     },
     {
         id: "9",
@@ -164,7 +164,7 @@ const proyectos = [
             "La flexibilidad del tejido permite que la manta se adapte a radios de curvatura pequeños sin estresar mecánicamente al conductor interno."
         ],
         
-        imagenes: ["hplc (1).webp", "hplc (5).webp", "hplc (2).webp", "hplc (3).webp"]
+        imagenes: ["reparacion-hplc-konik-a5000-01.webp", "reparacion-hplc-konik-a5000-02.webp", "reparacion-hplc-konik-a5000-03.webp", "reparacion-hplc-konik-a5000-04.webp"]
     },
     {
     id: "11",
@@ -182,7 +182,7 @@ const proyectos = [
         "Alta durabilidad para uso continuo gracias al motor brushless.",
         "Ajuste de posición en vertical y horizontal, y timer integrado para automatizar el proceso."
     ],
-    imagenes: ["agitador (1).webp", "agitador (2).webp", "agitador (3).webp", "agitador (4).webp", "agitador (6).webp", "agitador (5).webp"]
+    imagenes: ["agitador-vertical-pwm-laboratorio-01.webp", "agitador-vertical-pwm-laboratorio-02.webp", "agitador-vertical-pwm-laboratorio-03.webp", "agitador-vertical-pwm-laboratorio-04.webp", "agitador-vertical-pwm-laboratorio-05.webp", "agitador-vertical-pwm-laboratorio-06.webp"]
     },
     {
         id: "10",
@@ -201,7 +201,7 @@ const proyectos = [
             "Cumplimiento estricto del proceso."
         ],
         
-        imagenes: ["PID2 (2).webp", "PID2 (3).webp", "PID2 (4).webp", "PID2 (1).webp"]
+        imagenes: ["controlador-temperatura-pid-2025-01.webp", "controlador-temperatura-pid-2025-02.webp", "controlador-temperatura-pid-2025-03.webp", "controlador-temperatura-pid-2025-04.webp"]
     },
     {
     id: "12",
@@ -219,6 +219,6 @@ const proyectos = [
         "Eliminación de la causa raíz de la falla mediante la protección antisalpicaduras diseñada a medida.",
         "Mayor vida útil del equipo ante futuros derrames de reactivos."
     ],
-    imagenes: ["Agitador-Repar (2).webp", "Agitador-Repar (1).webp", "Agitador-Repar (3).webp", "Agitador-Repar (4).webp", "Agitador-Repar (5).webp", "Agitador-Repar (6).webp", "Agitador-Repar (7).webp"]
+    imagenes: ["reparacion-agitador-calentador-dlab-01.webp", "reparacion-agitador-calentador-dlab-02.webp", "reparacion-agitador-calentador-dlab-03.webp", "reparacion-agitador-calentador-dlab-04.webp", "reparacion-agitador-calentador-dlab-05.webp", "reparacion-agitador-calentador-dlab-06.webp", "reparacion-agitador-calentador-dlab-07.webp"]
 }
 ];

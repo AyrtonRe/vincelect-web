@@ -1,18 +1,238 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Página de Inicio -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://vincelect.com.ar/</loc>
-    <lastmod>2026-08-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/daq-cromatografo-gases-01.webp</image:loc>
+      <image:title>Diseño de sistema adquisición de datos para cromatógrafo</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/daq-cromatografo-gases-02.webp</image:loc>
+      <image:title>Diseño de sistema adquisición de datos para cromatógrafo - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/daq-cromatografo-gases-03.webp</image:loc>
+      <image:title>Diseño de sistema adquisición de datos para cromatógrafo - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/bioreactor-fotocatalisis-01.webp</image:loc>
+      <image:title>Diseño y desarrollo de bioreactor para fotocatálisis</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/bioreactor-fotocatalisis-02.webp</image:loc>
+      <image:title>Diseño y desarrollo de bioreactor para fotocatálisis - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/bioreactor-fotocatalisis-03.webp</image:loc>
+      <image:title>Diseño y desarrollo de bioreactor para fotocatálisis - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/dispositivo-cromatografia-tlc-01.webp</image:loc>
+      <image:title>Diseño y desarrollo de Dispositivo cromatografía TLC</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/dispositivo-cromatografia-tlc-02.webp</image:loc>
+      <image:title>Diseño y desarrollo de Dispositivo cromatografía TLC - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/dispositivo-cromatografia-tlc-03.webp</image:loc>
+      <image:title>Diseño y desarrollo de Dispositivo cromatografía TLC - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/dispositivo-cromatografia-tlc-04.webp</image:loc>
+      <image:title>Diseño y desarrollo de Dispositivo cromatografía TLC - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/dispositivo-cromatografia-tlc-05.webp</image:loc>
+      <image:title>Diseño y desarrollo de Dispositivo cromatografía TLC - imagen 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-01.webp</image:loc>
+      <image:title>Desarrollo de equipo potencioestato portatil</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-02.webp</image:loc>
+      <image:title>Desarrollo de equipo potencioestato portatil - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-03.webp</image:loc>
+      <image:title>Desarrollo de equipo potencioestato portatil - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-04.webp</image:loc>
+      <image:title>Desarrollo de equipo potencioestato portatil - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/digestor-kjeldahl-3-bloques-01.webp</image:loc>
+      <image:title>Desarrollo de digestor Kjeldahl de multiples bloques</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/digestor-kjeldahl-3-bloques-02.webp</image:loc>
+      <image:title>Desarrollo de digestor Kjeldahl de multiples bloques - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/digestor-kjeldahl-3-bloques-03.webp</image:loc>
+      <image:title>Desarrollo de digestor Kjeldahl de multiples bloques - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/digestor-kjeldahl-3-bloques-04.webp</image:loc>
+      <image:title>Desarrollo de digestor Kjeldahl de multiples bloques - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/controlador-temperatura-pid-2026-01.webp</image:loc>
+      <image:title>Controlador de temperatura PID</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/controlador-temperatura-pid-2026-02.webp</image:loc>
+      <image:title>Controlador de temperatura PID - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/controlador-temperatura-pid-2026-03.webp</image:loc>
+      <image:title>Controlador de temperatura PID - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/controlador-temperatura-pid-2026-04.webp</image:loc>
+      <image:title>Controlador de temperatura PID - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/calentador-planta-piloto-aceite-uva-01.webp</image:loc>
+      <image:title>Calentador e instalación electrica para planta piloto</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/calentador-planta-piloto-aceite-uva-02.webp</image:loc>
+      <image:title>Calentador e instalación electrica para planta piloto - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/calentador-planta-piloto-aceite-uva-03.webp</image:loc>
+      <image:title>Calentador e instalación electrica para planta piloto - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/calentador-planta-piloto-aceite-uva-04.webp</image:loc>
+      <image:title>Calentador e instalación electrica para planta piloto - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/calentador-planta-piloto-aceite-uva-05.webp</image:loc>
+      <image:title>Calentador e instalación electrica para planta piloto - imagen 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/manta-calefactora-flexible-01.webp</image:loc>
+      <image:title>Diseño y Prototipado de Manta Calefactora Flexible</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/manta-calefactora-flexible-02.webp</image:loc>
+      <image:title>Diseño y Prototipado de Manta Calefactora Flexible - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/manta-calefactora-flexible-03.webp</image:loc>
+      <image:title>Diseño y Prototipado de Manta Calefactora Flexible - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/manta-calefactora-flexible-04.webp</image:loc>
+      <image:title>Diseño y Prototipado de Manta Calefactora Flexible - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/manta-calefactora-flexible-05.webp</image:loc>
+      <image:title>Diseño y Prototipado de Manta Calefactora Flexible - imagen 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-hplc-konik-a5000-01.webp</image:loc>
+      <image:title>Reparación Integral y Rediseño de Interfaz HMI - Cromatógrafo HPLC Konik A5000</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-hplc-konik-a5000-02.webp</image:loc>
+      <image:title>Reparación Integral y Rediseño de Interfaz HMI - Cromatógrafo HPLC Konik A5000 - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-hplc-konik-a5000-03.webp</image:loc>
+      <image:title>Reparación Integral y Rediseño de Interfaz HMI - Cromatógrafo HPLC Konik A5000 - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-hplc-konik-a5000-04.webp</image:loc>
+      <image:title>Reparación Integral y Rediseño de Interfaz HMI - Cromatógrafo HPLC Konik A5000 - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-01.webp</image:loc>
+      <image:title>Desarrollo de agitador vertical de laboratorio con control PWM</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-02.webp</image:loc>
+      <image:title>Desarrollo de agitador vertical de laboratorio con control PWM - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-03.webp</image:loc>
+      <image:title>Desarrollo de agitador vertical de laboratorio con control PWM - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-04.webp</image:loc>
+      <image:title>Desarrollo de agitador vertical de laboratorio con control PWM - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-05.webp</image:loc>
+      <image:title>Desarrollo de agitador vertical de laboratorio con control PWM - imagen 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-06.webp</image:loc>
+      <image:title>Desarrollo de agitador vertical de laboratorio con control PWM - imagen 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/controlador-temperatura-pid-2025-01.webp</image:loc>
+      <image:title>Controlador de temperatura PID</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/controlador-temperatura-pid-2025-02.webp</image:loc>
+      <image:title>Controlador de temperatura PID - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/controlador-temperatura-pid-2025-03.webp</image:loc>
+      <image:title>Controlador de temperatura PID - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/controlador-temperatura-pid-2025-04.webp</image:loc>
+      <image:title>Controlador de temperatura PID - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-agitador-calentador-dlab-01.webp</image:loc>
+      <image:title>Reparación de Agitador Calentador de Laboratorio (DLAB MS-H-S)</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-agitador-calentador-dlab-02.webp</image:loc>
+      <image:title>Reparación de Agitador Calentador de Laboratorio (DLAB MS-H-S) - imagen 2</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-agitador-calentador-dlab-03.webp</image:loc>
+      <image:title>Reparación de Agitador Calentador de Laboratorio (DLAB MS-H-S) - imagen 3</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-agitador-calentador-dlab-04.webp</image:loc>
+      <image:title>Reparación de Agitador Calentador de Laboratorio (DLAB MS-H-S) - imagen 4</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-agitador-calentador-dlab-05.webp</image:loc>
+      <image:title>Reparación de Agitador Calentador de Laboratorio (DLAB MS-H-S) - imagen 5</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-agitador-calentador-dlab-06.webp</image:loc>
+      <image:title>Reparación de Agitador Calentador de Laboratorio (DLAB MS-H-S) - imagen 6</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/reparacion-agitador-calentador-dlab-07.webp</image:loc>
+      <image:title>Reparación de Agitador Calentador de Laboratorio (DLAB MS-H-S) - imagen 7</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/placas-pcb-electronica-vincelect-santa-fe.webp</image:loc>
+      <image:title>Placas de circuito impreso - Vincelect</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/logo-vincelect-ingenieria-electronica.webp</image:loc>
+      <image:title>Logo Vincelect</image:title>
+    </image:image>
   </url>
-  
-  <!-- Página Sobre Nosotros -->
   <url>
     <loc>https://vincelect.com.ar/sobre-nosotros</loc>
-    <lastmod>2026-08-07</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://vincelect.com.ar/taller-instrumental-medicion-vincelect.jpeg</image:loc>
+      <image:title>Taller e instrumental de medición de Vincelect</image:title>
+    </image:image>
   </url>
 </urlset>

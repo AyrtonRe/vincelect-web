@@ -1,3 +1,8 @@
+# robots.txt para vincelect.com.ar
+# No hay ninguna sección del sitio que necesite ocultarse de los buscadores,
+# así que se permite el rastreo completo y se apunta directo al sitemap
+# (que incluye las páginas y las imágenes de los proyectos).
+
 User-agent: *
 Allow: /
 

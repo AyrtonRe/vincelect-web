@@ -1,0 +1,72 @@
+{
+  "croma2.webp": "daq-cromatografo-gases-01.webp",
+  "croma1.webp": "daq-cromatografo-gases-02.webp",
+  "croma3.webp": "daq-cromatografo-gases-03.webp",
+
+  "Fotoreactor1.webp": "bioreactor-fotocatalisis-01.webp",
+  "Fotoreactor2.webp": "bioreactor-fotocatalisis-02.webp",
+  "Fotoreactor3.webp": "bioreactor-fotocatalisis-03.webp",
+
+  "TLC1.webp": "dispositivo-cromatografia-tlc-01.webp",
+  "TLC5.webp": "dispositivo-cromatografia-tlc-02.webp",
+  "TLC2.webp": "dispositivo-cromatografia-tlc-03.webp",
+  "TLC3.webp": "dispositivo-cromatografia-tlc-04.webp",
+  "TLC4.webp": "dispositivo-cromatografia-tlc-05.webp",
+
+  "Pot1.webp": "potenciostato-portatil-eis-01.webp",
+  "Pot2.webp": "potenciostato-portatil-eis-02.webp",
+  "Pot3.webp": "potenciostato-portatil-eis-03.webp",
+  "Pot4.webp": "potenciostato-portatil-eis-04.webp",
+
+  "KHJ1.webp": "digestor-kjeldahl-3-bloques-01.webp",
+  "KHJ3.webp": "digestor-kjeldahl-3-bloques-02.webp",
+  "KHJ4.webp": "digestor-kjeldahl-3-bloques-03.webp",
+  "KHJ6.webp": "digestor-kjeldahl-3-bloques-04.webp",
+
+  "PID1.webp": "controlador-temperatura-pid-2026-01.webp",
+  "PID2.webp": "controlador-temperatura-pid-2026-02.webp",
+  "PID3.webp": "controlador-temperatura-pid-2026-03.webp",
+  "PID4.webp": "controlador-temperatura-pid-2026-04.webp",
+
+  "Planta (2).webp": "calentador-planta-piloto-aceite-uva-01.webp",
+  "Planta (5).webp": "calentador-planta-piloto-aceite-uva-02.webp",
+  "Planta (6).webp": "calentador-planta-piloto-aceite-uva-03.webp",
+  "Planta (1).webp": "calentador-planta-piloto-aceite-uva-04.webp",
+  "Planta (3).webp": "calentador-planta-piloto-aceite-uva-05.webp",
+
+  "Manta (4).webp": "manta-calefactora-flexible-01.webp",
+  "Manta (2).webp": "manta-calefactora-flexible-02.webp",
+  "manta (3).webp": "manta-calefactora-flexible-03.webp",
+  "Manta (6).webp": "manta-calefactora-flexible-04.webp",
+  "Manta (1).webp": "manta-calefactora-flexible-05.webp",
+
+  "hplc (1).webp": "reparacion-hplc-konik-a5000-01.webp",
+  "hplc (5).webp": "reparacion-hplc-konik-a5000-02.webp",
+  "hplc (2).webp": "reparacion-hplc-konik-a5000-03.webp",
+  "hplc (3).webp": "reparacion-hplc-konik-a5000-04.webp",
+
+  "agitador (1).webp": "agitador-vertical-pwm-laboratorio-01.webp",
+  "agitador (2).webp": "agitador-vertical-pwm-laboratorio-02.webp",
+  "agitador (3).webp": "agitador-vertical-pwm-laboratorio-03.webp",
+  "agitador (4).webp": "agitador-vertical-pwm-laboratorio-04.webp",
+  "agitador (6).webp": "agitador-vertical-pwm-laboratorio-05.webp",
+  "agitador (5).webp": "agitador-vertical-pwm-laboratorio-06.webp",
+
+  "PID2 (2).webp": "controlador-temperatura-pid-2025-01.webp",
+  "PID2 (3).webp": "controlador-temperatura-pid-2025-02.webp",
+  "PID2 (4).webp": "controlador-temperatura-pid-2025-03.webp",
+  "PID2 (1).webp": "controlador-temperatura-pid-2025-04.webp",
+
+  "Agitador-Repar (2).webp": "reparacion-agitador-calentador-dlab-01.webp",
+  "Agitador-Repar (1).webp": "reparacion-agitador-calentador-dlab-02.webp",
+  "Agitador-Repar (3).webp": "reparacion-agitador-calentador-dlab-03.webp",
+  "Agitador-Repar (4).webp": "reparacion-agitador-calentador-dlab-04.webp",
+  "Agitador-Repar (5).webp": "reparacion-agitador-calentador-dlab-05.webp",
+  "Agitador-Repar (6).webp": "reparacion-agitador-calentador-dlab-06.webp",
+  "Agitador-Repar (7).webp": "reparacion-agitador-calentador-dlab-07.webp",
+
+  "pcb-types.webp": "placas-pcb-electronica-vincelect-santa-fe.webp",
+  "Captura de pantalla 2026-08-03 155434.webp": "logo-vincelect-ingenieria-electronica.webp",
+  "rect5-7-7-removebg-preview.webp": "isotipo-vincelect.webp",
+  "ABUS.jpeg": "taller-instrumental-medicion-vincelect.jpeg"
+}
