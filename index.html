@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Local -->
-    <meta name="description" content="Vincelect: Servicios y soluciones electrónicas en Santa Fe. Especialistas en reparaciones electrónicas, diseño de instrumental de laboratorio y prototipado 3D.">
-    <meta name="keywords" content="servicios de electronica en santa fe, reparaciones electronicas santa fe, soluciones electronicas santa fe, diseño de hardware, impresión 3D">
+    <meta name="description" content="Diseño, reparación y modernización de equipos electrónicos para laboratorios e industria. Hardware a medida, instrumental científico e impresión 3D en Santa Fe.">
+    <meta name="keywords" content="reparación de instrumental científico Santa Fe, diseño electrónico Santa Fe, hardware a medida, reparación de equipos de laboratorio, prototipado electrónico, impresión 3D técnica">
     <meta name="author" content="Vincelect">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://vincelect.com.ar/">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Vincelect | Ingeniería Electrónica en Santa Fe">
-    <meta property="og:description" content="Desarrollo de hardware, impresión 3D y reparación de equipamiento científico e industrial en la ciudad de Santa Fe.">
+    <meta property="og:title" content="Vincelect | Electrónica para laboratorios e industria">
+    <meta property="og:description" content="Diseño, reparación y modernización de equipamiento electrónico e instrumental científico en Santa Fe.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://vincelect.com.ar/">
     <meta property="og:image" content="https://vincelect.com.ar/placas-pcb-electronica-vincelect-santa-fe.webp">
@@ -22,11 +22,11 @@
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Vincelect | Ingeniería Electrónica en Santa Fe">
-    <meta name="twitter:description" content="Desarrollo de hardware, impresión 3D y reparación de equipamiento científico e industrial en la ciudad de Santa Fe.">
+    <meta name="twitter:title" content="Vincelect | Electrónica para laboratorios e industria">
+    <meta name="twitter:description" content="Diseño, reparación y modernización de equipamiento electrónico e instrumental científico en Santa Fe.">
     <meta name="twitter:image" content="https://vincelect.com.ar/placas-pcb-electronica-vincelect-santa-fe.webp">
     
-    <title>Vincelect | Ingeniería Electrónica e Instrumental en Santa Fe</title>
+    <title>Reparación y Diseño Electrónico en Santa Fe | Vincelect</title>
     <link rel="preload" as="image" href="placas-pcb-electronica-vincelect-santa-fe.webp">
     <link rel="icon" type="image/webp" href="isotipo-vincelect.webp">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -39,8 +39,9 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ElectronicsStore",
+      "@type": "ProfessionalService",
       "name": "Vincelect",
+      "description": "Diseño, reparación y modernización de equipos electrónicos para laboratorios e industria.",
       "image": "https://vincelect.com.ar/placas-pcb-electronica-vincelect-santa-fe.webp",
       "@id": "https://vincelect.com.ar/",
       "url": "https://vincelect.com.ar/",
@@ -54,13 +55,56 @@
         "postalCode": "3000",
         "addressCountry": "AR"
       },
-      "areaServed": {
-        "@type": "City",
-        "name": "Santa Fe"
+      "areaServed": [
+        {"@type": "City", "name": "Santa Fe"},
+        {"@type": "AdministrativeArea", "name": "Región Centro de Argentina"}
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Ayrton Reinick"
       },
+      "knowsAbout": [
+        "Diseño electrónico",
+        "Reparación de instrumental científico",
+        "Prototipado de hardware",
+        "Sistemas de control",
+        "Impresión 3D técnica"
+      ],
       "sameAs": [
         "https://www.facebook.com/profile.php?id=61593344301056",
         "https://www.instagram.com/vincelect/"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Qué equipos repara Vincelect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Vincelect diagnostica y repara instrumental científico, equipos de medición, placas electrónicas, fuentes de alimentación y sistemas de control para laboratorios e industria."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Vincelect desarrolla equipos electrónicos a medida?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. El servicio puede abarcar el circuito electrónico, PCB, firmware, interfaz de usuario, gabinete y validación funcional del prototipo."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Dónde brinda servicio Vincelect?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El taller está en la ciudad de Santa Fe y atiende consultas de empresas, laboratorios e investigadores de la región."
+          }
+        }
       ]
     }
     </script>
@@ -82,6 +126,7 @@
                     <li><a href="/#proyectos">Proyectos</a></li>
                     <!-- Le borramos el .html al fInal del href -->
                     <li><a href="/sobre-nosotros">Sobre nosotros</a></li>
+                    <li><a href="#contacto" class="btn-primary nav-contact">Contactarnos</a></li>
                 </ul>
             </nav>
         </div>
@@ -90,11 +135,21 @@
     <main>
         <section id="inicio" class="hero">
             <div class="hero-bg-container">
-                <img src="placas-pcb-electronica-vincelect-santa-fe.webp" fetchpriority="high" alt="Placa de circuito impreso electrónica - Fondo">
+                <img src="placas-pcb-electronica-vincelect-santa-fe.webp" fetchpriority="high" alt="Diseño y diagnóstico de placas electrónicas en el taller de Vincelect">
             </div>
             <div class="container hero-content">
-                <h1>Bienvenido a Vincelect: Soluciones en Electrónica y Reparación de Instrumental</h1>
-                <p>Soy Ayrton Reinick, creador de este proyecto radicado en la <strong>ciudad de Santa Fe, Argentina</strong>, me dedico al desarrollo y soluciones electronicas, desde reparaciones de equipos complejos hasta el desarrollo completo de hardware y equipamiento para laboratorios y/o industrias.</p>
+                <p class="eyebrow">SOLUCIONES ELECTRÓNICAS · SANTA FE</p>
+                <h1>Reparo y desarrollo equipos electrónicos para laboratorios e industria</h1>
+                <p class="hero-lead">Diagnóstico de instrumental científico, modernización de equipos y hardware a medida. Desde la falla o la idea inicial hasta un equipo operativo.</p>
+                <div class="hero-actions">
+                    <a class="btn-primary" href="https://wa.me/5493426313828?text=Hola%20Ayrton,%20vi%20la%20web%20de%20Vincelect%20y%20quiero%20consultarte%20por%20un%20equipo." target="_blank" rel="noopener noreferrer">CONSULTAR POR WHATSAPP</a>
+                    <a class="btn-secondary" href="#proyectos">VER TRABAJOS REALIZADOS</a>
+                </div>
+                <ul class="hero-proof" aria-label="Características del servicio">
+                    <li>Atención técnica directa</li>
+                    <li>Soluciones reparables y documentadas</li>
+                    <li>Taller en Santa Fe</li>
+                </ul>
             </div>
         </section>
 
@@ -103,119 +158,158 @@
             <div class="section-title text-center">
                 <h2>Servicios especializados</h2>
             </div>
-            <div class="grid-3 text-center">
-                <div class="info-box hover-scale">
-                    <span class="badge" style="position:relative; top:0; left:0; display:inline-block; margin-bottom:15px;">01. HARDWARE</span>
-                    <h3 class="info-title">Diseño y Prototipado</h3>
-                    <p>Desarrollo integral de circuitos electrónicos (PCBs), integración de microcontroladores y creación de hardware a medida para proyectos específicos e industriales.</p>
+            <div class="grid-3 text-center services-grid">
+                <div class="info-box service-card">
+                    <span class="badge service-badge">01. HARDWARE</span>
+                    <h3 class="info-title">Hardware y equipos a medida</h3>
+                    <p>Desarrollo la electrónica y la integración necesarias para convertir un requerimiento técnico en un prototipo funcional.</p>
+                    <ul class="service-points">
+                        <li>Diseño de circuitos y PCB</li>
+                        <li>Microcontroladores, firmware y HMI</li>
+                        <li>Adquisición de datos y control</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Consultar un desarrollo</a>
                 </div>
-                <div class="info-box hover-scale">
-                    <span class="badge" style="position:relative; top:0; left:0; display:inline-block; margin-bottom:15px;">02. LABORATORIO</span>
-                    <h3 class="info-title">Mantenimiento de Instrumental</h3>
-                    <p>Diagnóstico avanzado, reparación y mantenimiento de equipamiento científico complejo, equipos de medición, cromatografía y sistemas de automatización industrial.</p>
+                <div class="info-box service-card">
+                    <span class="badge service-badge">02. LABORATORIO</span>
+                    <h3 class="info-title">Reparación de instrumental</h3>
+                    <p>Busco la causa de la falla y evalúo una reparación viable, incluso cuando el equipo es discontinuado o no tiene repuestos directos.</p>
+                    <ul class="service-points">
+                        <li>Instrumental científico y de medición</li>
+                        <li>Fuentes, placas y sistemas de control</li>
+                        <li>Modernización de electrónica obsoleta</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Consultar una reparación</a>
                 </div>
-                <div class="info-box hover-scale">
-                    <span class="badge" style="position:relative; top:0; left:0; display:inline-block; margin-bottom:15px;">03. MANUFACTURA</span>
-                    <h3 class="info-title">Impresión 3D Técnica</h3>
-                    <p>Fabricación de gabinetes funcionales, soportes estructurales y piezas mecánicas utilizando filamentos técnicos adaptados a las exigencias de cada entorno.</p>
+                <div class="info-box service-card">
+                    <span class="badge service-badge">03. MANUFACTURA</span>
+                    <h3 class="info-title">Prototipado e impresión 3D</h3>
+                    <p>Diseño y fabrico las piezas necesarias para integrar y proteger la electrónica en condiciones reales de uso.</p>
+                    <ul class="service-points">
+                        <li>Gabinetes y soportes a medida</li>
+                        <li>Piezas de reemplazo</li>
+                        <li>Integración electromecánica</li>
+                    </ul>
+                    <a href="#contacto" class="service-link">Consultar una pieza</a>
                 </div>
             </div>
 
-            <!-- ACÁ EL RECUADRO DE UBICACIÓN CON FORMATO DE TARJETA -->
-            <div class="section-title text-center">
+            <div class="section-title text-center location-title">
                 <h2>Ubicación del taller</h2>
             </div>
-            <div class="info-box hover-scale text-center" style="margin-top: 50px; padding: 40px 20px;">
-                <p style="max-width: 850px; margin: 0 auto;">El taller laboratorio está radicado en la <strong>ciudad de Santa Fe, Argentina</strong>. Desde donde diseño hardware a medida, ensamblamos placas de circuito impreso (PCB) y brindamos reparaciones electrónicas y servicio técnico especializado en instrumental científico para industrias, investigadores y empresas de toda la región centro.</p>
+            <div class="info-box text-center location-box">
+                <p>El taller está ubicado en la <strong>ciudad de Santa Fe, Argentina</strong>. Desde allí realizo desarrollos de hardware, armado de placas y reparación de instrumental para empresas, laboratorios e investigadores de la región. Cada consulta es evaluada de manera directa, sin intermediarios.</p>
+                <a href="#contacto" class="btn-primary">CONTAME TU CASO</a>
             </div>
 
         </section>
 
+        <section class="section-padding container process-section" aria-labelledby="proceso-titulo">
+            <div class="section-title text-center">
+                <h2 id="proceso-titulo">Cómo trabajo</h2>
+            </div>
+            <div class="grid-3 process-grid">
+                <article class="info-box process-card">
+                    <span class="badge">01. RELEVAMIENTO</span>
+                    <p>Me contás la falla o el objetivo y revisamos requisitos, fotos, modelo del equipo y condiciones de uso.</p>
+                </article>
+                <article class="info-box process-card">
+                    <span class="badge">02. PROPUESTA</span>
+                    <p>Defino el alcance, la alternativa de solución y los puntos que deben validarse antes de avanzar.</p>
+                </article>
+                <article class="info-box process-card">
+                    <span class="badge">03. IMPLEMENTACIÓN</span>
+                    <p>Realizo la reparación o el desarrollo, verifico su funcionamiento y documento lo necesario para su uso.</p>
+                </article>
+            </div>
+        </section>
+
         <hr class="divider">
 
-        <section id="proyectos" class="section-padding container">
+        <section id="proyectos" class="section-padding container projects-section">
             <div class="section-title text-center">
                 <h2>Proyectos y trabajos</h2>
+                <p class="section-lead">En cada proyecto podés ver el problema inicial, la solución aplicada y el resultado obtenido.</p>
             </div>
             
             <div class="portfolio-tabs">
-                <button class="tab-btn active" onclick="filtrarProyectos(event, 'todos')">Todos</button>
-                <button class="tab-btn" onclick="filtrarProyectos(event, 'desarrollo')">Desarrollos propios</button>
-                <button class="tab-btn" onclick="filtrarProyectos(event, 'armado')">Armados</button>
-                <button class="tab-btn" onclick="filtrarProyectos(event, 'reparacion')">Reparaciones</button>
+                <button type="button" class="tab-btn active" aria-pressed="true" onclick="filtrarProyectos(event, 'todos')">Todos</button>
+                <button type="button" class="tab-btn" aria-pressed="false" onclick="filtrarProyectos(event, 'desarrollo')">Desarrollos propios</button>
+                <button type="button" class="tab-btn" aria-pressed="false" onclick="filtrarProyectos(event, 'armado')">Armados</button>
+                <button type="button" class="tab-btn" aria-pressed="false" onclick="filtrarProyectos(event, 'reparacion')">Reparaciones</button>
             </div>
             
             <div class="grid-2 gap-large" id="contenedor-tarjetas">
                 <!-- INICIO-TARJETAS -->
 
                 <div class="project-card" data-tipo="desarrollo">
-                    <img src="potenciostato-portatil-eis-01.webp" alt="Vista miniatura del proyecto: Desarrollo de equipo potencioestato portatil" class="card-img" loading="lazy">
+                    <img src="potenciostato-portatil-eis-01.webp" alt="Vista miniatura del proyecto: Desarrollo de potenciostato portátil" class="card-img" loading="lazy">
                     <span class="badge right">2026</span>
-                    <h3>Desarrollo de equipo potencioestato portatil</h3>
-                    <p>Desarrollo de un potenciostato destinado a Espectroscopía de Impedancia Electroquímica (EIS), Ciclovotamperometría (CV) y Chronoamperometría (CA) portatil, tanto el software de control en PC (HMI) como el firmware de adquisición.</p>
+                    <h3>Desarrollo de potenciostato portátil</h3>
+                    <p>Equipo portátil para espectroscopía de impedancia electroquímica (EIS), voltamperometría cíclica (CV) y cronoamperometría (CA), con firmware y software de control.</p>
                     <a href="#modal-proyecto-4" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="desarrollo">
-                    <img src="daq-cromatografo-gases-01.webp" alt="Vista miniatura del proyecto: Diseño de sistema adquisición de datos para cromatógrafo" class="card-img" loading="lazy">
+                    <img src="daq-cromatografo-gases-01.webp" alt="Vista miniatura del proyecto: Sistema de adquisición de datos para cromatógrafo" class="card-img" loading="lazy">
                     <span class="badge right">2026</span>
-                    <h3>Diseño de sistema adquisición de datos para cromatógrafo</h3>
-                    <p>Integración de electrónica para adquisión de sensores analógicos y software para el análisis y postprocesado de estos datos en cromatografos de gases.</p>
+                    <h3>Sistema de adquisición de datos para cromatógrafo</h3>
+                    <p>Electrónica de adquisición para sensores analógicos y software de análisis y posprocesamiento de datos en cromatógrafos de gases.</p>
                     <a href="#modal-proyecto-1" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="armado">
                     <img src="controlador-temperatura-pid-2026-01.webp" alt="Vista miniatura del proyecto: Controlador de temperatura PID" class="card-img" loading="lazy">
                     <span class="badge right">2026</span>
                     <h3>Controlador de temperatura PID</h3>
-                    <p>Se realizó el diseño de la estructura y conexión eléctrica para un controlador de temperatura, se eligió un control PID para asegurar el cumplimiento del proceso.</p>
+                    <p>Diseño de la estructura y conexión eléctrica de un controlador PID para mantener la temperatura requerida por el proceso.</p>
                     <a href="#modal-proyecto-6" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="desarrollo">
                     <img src="bioreactor-fotocatalisis-01.webp" alt="Vista miniatura del proyecto: Diseño y desarrollo de bioreactor para fotocatálisis" class="card-img" loading="lazy">
                     <span class="badge right">2026</span>
                     <h3>Diseño y desarrollo de bioreactor para fotocatálisis</h3>
-                    <p>Desarrollo y ensamble de hardware para fuentes de alimentación, brazos mecánicos y bancos de pruebas con conectividad múltiple.</p>
+                    <p>Reactor cilíndrico con iluminación RGB regulable, control térmico y compatibilidad mecánica con agitador magnético.</p>
                     <a href="#modal-proyecto-2" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="desarrollo">
-                    <img src="dispositivo-cromatografia-tlc-01.webp" alt="Vista miniatura del proyecto: Diseño y desarrollo de Dispositivo cromatografía TLC" class="card-img" loading="lazy">
+                    <img src="dispositivo-cromatografia-tlc-01.webp" alt="Vista miniatura del proyecto: Dispositivo para cromatografía TLC" class="card-img" loading="lazy">
                     <span class="badge right">2026</span>
-                    <h3>Diseño y desarrollo de Dispositivo cromatografía TLC</h3>
-                    <p>Desarrollo y ensamble de Dispositivo para cromatografía TLC con Modulación PWM buck para LEDs UV (385nm/420nm).</p>
+                    <h3>Dispositivo para cromatografía TLC</h3>
+                    <p>Diseño de un equipo para cromatografía TLC con control PWM de LEDs UV de 385 y 420 nm e integración de otras fuentes de iluminación.</p>
                     <a href="#modal-proyecto-3" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="desarrollo">
                     <img src="manta-calefactora-flexible-01.webp" alt="Vista miniatura del proyecto: Diseño y Prototipado de Manta Calefactora Flexible" class="card-img" loading="lazy">
                     <span class="badge right">2025</span>
                     <h3>Diseño y Prototipado de Manta Calefactora Flexible</h3>
-                    <p>Diseño de un calentador de agua para extracción de aceite de uva en planta piloto, en conjunto con esto se realizó la instalación electrica del controlador de temperatura y los tableros de alimentación necesarios.</p>
+                    <p>Diseño y validación de una manta calefactora flexible de hasta 400 W para aplicar calor controlado sobre superficies cilíndricas o irregulares.</p>
                     <a href="#modal-proyecto-8" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="reparacion">
                     <img src="reparacion-hplc-konik-a5000-01.webp" alt="Vista miniatura del proyecto: Reparación Integral y Rediseño de Interfaz HMI - Cromatógrafo HPLC Konik A5000" class="card-img" loading="lazy">
                     <span class="badge right">2025</span>
                     <h3>Reparación Integral y Rediseño de Interfaz HMI - Cromatógrafo HPLC Konik A5000</h3>
-                    <p>Diagnóstico y reparación de cromatografo líquido Konik, desde la parte electrónica hasta el rediseño del interfaz HMI.</p>
+                    <p>Diagnóstico y recuperación de un cromatógrafo líquido Konik, con reparación electrónica y rediseño de la interfaz HMI.</p>
                     <a href="#modal-proyecto-9" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="desarrollo">
-                    <img src="digestor-kjeldahl-3-bloques-01.webp" alt="Vista miniatura del proyecto: Desarrollo de digestor Kjeldahl de multiples bloques" class="card-img" loading="lazy">
+                    <img src="digestor-kjeldahl-3-bloques-01.webp" alt="Vista miniatura del proyecto: Desarrollo de digestor Kjeldahl de múltiples bloques" class="card-img" loading="lazy">
                     <span class="badge right">2025</span>
-                    <h3>Desarrollo de digestor Kjeldahl de multiples bloques</h3>
-                    <p>Diseño y Construcción de Digestor Kjeldahl de 3 Posiciones con Control Individual de hasta 400W por bloque.</p>
+                    <h3>Desarrollo de digestor Kjeldahl de múltiples bloques</h3>
+                    <p>Diseño y construcción de un digestor Kjeldahl de tres posiciones, con control individual de hasta 400 W por bloque.</p>
                     <a href="#modal-proyecto-5" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="armado">
-                    <img src="calentador-planta-piloto-aceite-uva-01.webp" alt="Vista miniatura del proyecto: Calentador e instalación electrica para planta piloto" class="card-img" loading="lazy">
+                    <img src="calentador-planta-piloto-aceite-uva-01.webp" alt="Vista miniatura del proyecto: Calentador e instalación eléctrica para planta piloto" class="card-img" loading="lazy">
                     <span class="badge right">2025</span>
-                    <h3>Calentador e instalación electrica para planta piloto</h3>
-                    <p>Diseño de un calentador de agua para extracción de aceite de uva en planta piloto, en conjunto con esto se realizó la instalación electrica del controlador de temperatura y los tableros de alimentación necesarios.</p>
+                    <h3>Calentador e instalación eléctrica para planta piloto</h3>
+                    <p>Diseño de un sistema para calentar agua en una planta piloto, con control de temperatura y tablero eléctrico de alimentación.</p>
                     <a href="#modal-proyecto-7" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="armado">
                     <img src="controlador-temperatura-pid-2025-01.webp" alt="Vista miniatura del proyecto: Controlador de temperatura PID" class="card-img" loading="lazy">
                     <span class="badge right">2025</span>
                     <h3>Controlador de temperatura PID</h3>
-                    <p>Se realizó el diseño de la estructura y conexión eléctrica para un controlador de temperatura, se eligió un control PID para asegurar el cumplimiento del proceso.</p>
+                    <p>Diseño de la estructura y conexión eléctrica de un controlador PID para mantener la temperatura requerida por el proceso.</p>
                     <a href="#modal-proyecto-10" class="btn-primary">VER DETALLES Y GALERÍA</a>
                 </div>
                 <div class="project-card" data-tipo="reparacion">
@@ -239,17 +333,17 @@
 
                 <div id="modal-proyecto-4" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2026-08</span>
-                            <h2>Desarrollo de equipo potencioestato portatil</h2>
+                            <h2>Desarrollo de potenciostato portátil</h2>
                         </div>
                         <div class="modal-grid">
                             <div class="modal-gallery-container">
-                                <img id="main-img-p4" src="potenciostato-portatil-eis-01.webp" class="modal-main-img" alt="Imagen en detalle: Desarrollo de equipo potencioestato portatil">
+                                <img id="main-img-p4" src="potenciostato-portatil-eis-01.webp" class="modal-main-img" alt="Imagen en detalle: Desarrollo de potenciostato portátil">
                                 <div class="modal-thumbnails">
-                                    <img src="potenciostato-portatil-eis-01.webp" alt="Miniatura de la galería de Desarrollo de equipo potencioestato portatil" onclick="cambiarImagen('main-img-p4', this.src)" class="thumb" loading="lazy"><img src="potenciostato-portatil-eis-02.webp" alt="Miniatura de la galería de Desarrollo de equipo potencioestato portatil" onclick="cambiarImagen('main-img-p4', this.src)" class="thumb" loading="lazy"><img src="potenciostato-portatil-eis-03.webp" alt="Miniatura de la galería de Desarrollo de equipo potencioestato portatil" onclick="cambiarImagen('main-img-p4', this.src)" class="thumb" loading="lazy"><img src="potenciostato-portatil-eis-04.webp" alt="Miniatura de la galería de Desarrollo de equipo potencioestato portatil" onclick="cambiarImagen('main-img-p4', this.src)" class="thumb" loading="lazy">
+                                    <img src="potenciostato-portatil-eis-01.webp" alt="Miniatura de la galería de Desarrollo de potenciostato portátil" onclick="cambiarImagen('main-img-p4', this.src)" class="thumb" loading="lazy"><img src="potenciostato-portatil-eis-02.webp" alt="Miniatura de la galería de Desarrollo de potenciostato portátil" onclick="cambiarImagen('main-img-p4', this.src)" class="thumb" loading="lazy"><img src="potenciostato-portatil-eis-03.webp" alt="Miniatura de la galería de Desarrollo de potenciostato portátil" onclick="cambiarImagen('main-img-p4', this.src)" class="thumb" loading="lazy"><img src="potenciostato-portatil-eis-04.webp" alt="Miniatura de la galería de Desarrollo de potenciostato portátil" onclick="cambiarImagen('main-img-p4', this.src)" class="thumb" loading="lazy">
                                 </div>
                             </div>
                             <div class="modal-info">
@@ -259,11 +353,11 @@
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">🎯 2. NECESIDAD A SOLUCIONAR</h4>
-                                    <p>Se requería un potencioestato para el análisis de muestras electroquimicas, debido al alto costo de estos (~10000USD) y la dificultad de conseguirlos en el país, se nos solicitó desarrollar uno desde cero.</p>
+                                    <p>Se requería un potenciostato para analizar muestras electroquímicas. Debido al alto costo de los equipos comerciales (alrededor de USD 10.000) y la dificultad para conseguirlos en el país, se solicitó desarrollar una alternativa desde cero.</p>
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">💡 3. SOLUCIÓN DESARROLLADA</h4>
-                                    <p>Desarrollo de un equipo compacto y portátil, con las especificaciones de equipos comerciales a una fracción del precio de estos. Se desarrolló tanto el circuito eléctrico (basado en un AFE AD5940) con alimentación USB, así como el backend necesario para utilizarse mediante un microcontrolador. También se desarrolló el software HMI para la utilización del operario, priorizando la facilidad del uso del mismo.</p>
+                                    <p>Se desarrolló un equipo compacto y portátil basado en el front-end analógico AD5940, con alimentación USB, firmware de adquisición y software HMI para configurar ensayos y visualizar resultados desde una PC.</p>
                                 </div>
                                 
                     <div class="info-block">
@@ -278,17 +372,17 @@
                 </div>
                 <div id="modal-proyecto-1" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">MICROCONTROLADORES</span>
                             <span class="tag-date">2026-06</span>
-                            <h2>Diseño de sistema adquisición de datos para cromatógrafo</h2>
+                            <h2>Sistema de adquisición de datos para cromatógrafo</h2>
                         </div>
                         <div class="modal-grid">
                             <div class="modal-gallery-container">
-                                <img id="main-img-p1" src="daq-cromatografo-gases-01.webp" class="modal-main-img" alt="Imagen en detalle: Diseño de sistema adquisición de datos para cromatógrafo">
+                                <img id="main-img-p1" src="daq-cromatografo-gases-01.webp" class="modal-main-img" alt="Imagen en detalle: Sistema de adquisición de datos para cromatógrafo">
                                 <div class="modal-thumbnails">
-                                    <img src="daq-cromatografo-gases-01.webp" alt="Miniatura de la galería de Diseño de sistema adquisición de datos para cromatógrafo" onclick="cambiarImagen('main-img-p1', this.src)" class="thumb" loading="lazy"><img src="daq-cromatografo-gases-02.webp" alt="Miniatura de la galería de Diseño de sistema adquisición de datos para cromatógrafo" onclick="cambiarImagen('main-img-p1', this.src)" class="thumb" loading="lazy"><img src="daq-cromatografo-gases-03.webp" alt="Miniatura de la galería de Diseño de sistema adquisición de datos para cromatógrafo" onclick="cambiarImagen('main-img-p1', this.src)" class="thumb" loading="lazy">
+                                    <img src="daq-cromatografo-gases-01.webp" alt="Miniatura de la galería de Sistema de adquisición de datos para cromatógrafo" onclick="cambiarImagen('main-img-p1', this.src)" class="thumb" loading="lazy"><img src="daq-cromatografo-gases-02.webp" alt="Miniatura de la galería de Sistema de adquisición de datos para cromatógrafo" onclick="cambiarImagen('main-img-p1', this.src)" class="thumb" loading="lazy"><img src="daq-cromatografo-gases-03.webp" alt="Miniatura de la galería de Sistema de adquisición de datos para cromatógrafo" onclick="cambiarImagen('main-img-p1', this.src)" class="thumb" loading="lazy">
                                 </div>
                             </div>
                             <div class="modal-info">
@@ -302,7 +396,7 @@
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">💡 3. SOLUCIÓN DESARROLLADA</h4>
-                                    <p>Se diseñó y ensambló una placa de adquisición de datos (DAQ) a medida, utilizando microcontroladores y conversores ADC de alta resolución, integrada a un software de escritorio desarrollado para el postprocesado de la información.</p>
+                                    <p>Se diseñó y ensambló una placa de adquisición de datos (DAQ) a medida, utilizando microcontroladores y conversores ADC de alta resolución, integrada a un software de escritorio desarrollado para el posprocesamiento de la información.</p>
                                 </div>
                                 
                     <div class="info-block">
@@ -317,7 +411,7 @@
                 </div>
                 <div id="modal-proyecto-6" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2026-06</span>
@@ -356,7 +450,7 @@
                 </div>
                 <div id="modal-proyecto-2" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2026-05</span>
@@ -376,11 +470,11 @@
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">🎯 2. NECESIDAD A SOLUCIONAR</h4>
-                                    <p>Necesidad de diseño de un reactor cilíndrico para fotocatálisis que requería iluminación uniforme de 360 grados con longitud de onda y potencia variable, a su vez mantenimiento de temperatura interna por debajo de los 60°C (límite estructural del PLA).</p>
+                                    <p>Se necesitaba un reactor cilíndrico para fotocatálisis con iluminación uniforme en 360°, intensidad regulable y temperatura interna inferior a 60 °C, límite estructural del PLA utilizado.</p>
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">💡 3. SOLUCIÓN DESARROLLADA</h4>
-                                    <p>Fabricación de un dispositivo con control independiente de intensidad por longitud de onda (R, G, B) compatible estructuralmente con un agitador magnético inferior.</p>
+                                    <p>Se fabricó un dispositivo con control independiente de intensidad para cada canal RGB, ventilación para el control térmico y una estructura compatible con un agitador magnético inferior.</p>
                                 </div>
                                 
                     <div class="info-block">
@@ -395,17 +489,17 @@
                 </div>
                 <div id="modal-proyecto-3" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2026-04</span>
-                            <h2>Diseño y desarrollo de Dispositivo cromatografía TLC</h2>
+                            <h2>Dispositivo para cromatografía TLC</h2>
                         </div>
                         <div class="modal-grid">
                             <div class="modal-gallery-container">
-                                <img id="main-img-p3" src="dispositivo-cromatografia-tlc-01.webp" class="modal-main-img" alt="Imagen en detalle: Diseño y desarrollo de Dispositivo cromatografía TLC">
+                                <img id="main-img-p3" src="dispositivo-cromatografia-tlc-01.webp" class="modal-main-img" alt="Imagen en detalle: Dispositivo para cromatografía TLC">
                                 <div class="modal-thumbnails">
-                                    <img src="dispositivo-cromatografia-tlc-01.webp" alt="Miniatura de la galería de Diseño y desarrollo de Dispositivo cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy"><img src="dispositivo-cromatografia-tlc-02.webp" alt="Miniatura de la galería de Diseño y desarrollo de Dispositivo cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy"><img src="dispositivo-cromatografia-tlc-03.webp" alt="Miniatura de la galería de Diseño y desarrollo de Dispositivo cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy"><img src="dispositivo-cromatografia-tlc-04.webp" alt="Miniatura de la galería de Diseño y desarrollo de Dispositivo cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy"><img src="dispositivo-cromatografia-tlc-05.webp" alt="Miniatura de la galería de Diseño y desarrollo de Dispositivo cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy">
+                                    <img src="dispositivo-cromatografia-tlc-01.webp" alt="Miniatura de la galería de Dispositivo para cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy"><img src="dispositivo-cromatografia-tlc-02.webp" alt="Miniatura de la galería de Dispositivo para cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy"><img src="dispositivo-cromatografia-tlc-03.webp" alt="Miniatura de la galería de Dispositivo para cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy"><img src="dispositivo-cromatografia-tlc-04.webp" alt="Miniatura de la galería de Dispositivo para cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy"><img src="dispositivo-cromatografia-tlc-05.webp" alt="Miniatura de la galería de Dispositivo para cromatografía TLC" onclick="cambiarImagen('main-img-p3', this.src)" class="thumb" loading="lazy">
                                 </div>
                             </div>
                             <div class="modal-info">
@@ -415,17 +509,17 @@
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">🎯 2. NECESIDAD A SOLUCIONAR</h4>
-                                    <p>Se necesitaba un dispositivo para realizar cromatografías TLC, lo cual necesitaba iluminar con fotones de diferentes longitudes de onda, para este caso se controlaron 2 juegos leds de 385nm/420nm respectivamente, a su vez se incorporó un calce mecanico para acoplar tubos de 254 y 300nm. A su vez era imperativo que la estructura del dispositivo fuese totalmente opaca, para así evitar fugas de luz.</p>
+                                    <p>Se necesitaba observar placas de cromatografía TLC con distintas longitudes de onda. El equipo debía controlar LEDs de 385 y 420 nm, admitir tubos de 254 y 300 nm y evitar fugas de luz hacia el operador.</p>
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">💡 3. SOLUCIÓN DESARROLLADA</h4>
-                                    <p>Fabricación de un dispositivo con control independiente de intensidad por longitud de onda (385nm/420nm), compatible mecanicamente con tubos de otras longitudes de onda. A su vez la estructura es compatible para registrar el proceso de cromatografía mediante un smartphone/camara.</p>
+                                    <p>Se fabricó un dispositivo opaco con control independiente de intensidad para 385 y 420 nm, calces para otras fuentes de iluminación y una abertura preparada para registrar los resultados con un smartphone o una cámara.</p>
                                 </div>
                                 
                     <div class="info-block">
                         <h4 class="info-title">📈 4. BENEFICIOS</h4>
                         <ul class="info-list">
-                            <li>Dispositivo funcional, compacto y de muy bajo costo.</li><li>Iluminación homogénea optimizando la reacción fotocatalítica.</li><li>Estructura compatible con múltiples tubos de iluminación y formas de registro.</li>
+                            <li>Dispositivo funcional, compacto y de muy bajo costo.</li><li>Iluminación homogénea para mejorar la observación de las placas TLC.</li><li>Estructura compatible con múltiples tubos de iluminación y formas de registro.</li>
                         </ul>
                     </div>
                             </div>
@@ -434,7 +528,7 @@
                 </div>
                 <div id="modal-proyecto-8" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2025-10</span>
@@ -473,9 +567,9 @@
                 </div>
                 <div id="modal-proyecto-9" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
-                            <span class="tag-title">VALIDACIÓN</span>
+                            <span class="tag-title">REPARACIÓN</span>
                             <span class="tag-date">2025-10</span>
                             <h2>Reparación Integral y Rediseño de Interfaz HMI - Cromatógrafo HPLC Konik A5000</h2>
                         </div>
@@ -503,7 +597,7 @@
                     <div class="info-block">
                         <h4 class="info-title">📈 4. BENEFICIOS</h4>
                         <ul class="info-list">
-                            <li>El diseño prioriza la seguridad operativa mediante un doble aislamiento físico.</li><li>La flexibilidad del tejido permite que la manta se adapte a radios de curvatura pequeños sin estresar mecánicamente al conductor interno.</li>
+                            <li>Recuperación funcional de un cromatógrafo que se encontraba fuera de servicio.</li><li>Reemplazo de una interfaz dañada y sin disponibilidad directa de repuestos.</li><li>Extensión de la vida útil del equipo sin afrontar el costo de una sustitución completa.</li>
                         </ul>
                     </div>
                             </div>
@@ -512,17 +606,17 @@
                 </div>
                 <div id="modal-proyecto-5" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2025-09</span>
-                            <h2>Desarrollo de digestor Kjeldahl de multiples bloques</h2>
+                            <h2>Desarrollo de digestor Kjeldahl de múltiples bloques</h2>
                         </div>
                         <div class="modal-grid">
                             <div class="modal-gallery-container">
-                                <img id="main-img-p5" src="digestor-kjeldahl-3-bloques-01.webp" class="modal-main-img" alt="Imagen en detalle: Desarrollo de digestor Kjeldahl de multiples bloques">
+                                <img id="main-img-p5" src="digestor-kjeldahl-3-bloques-01.webp" class="modal-main-img" alt="Imagen en detalle: Desarrollo de digestor Kjeldahl de múltiples bloques">
                                 <div class="modal-thumbnails">
-                                    <img src="digestor-kjeldahl-3-bloques-01.webp" alt="Miniatura de la galería de Desarrollo de digestor Kjeldahl de multiples bloques" onclick="cambiarImagen('main-img-p5', this.src)" class="thumb" loading="lazy"><img src="digestor-kjeldahl-3-bloques-02.webp" alt="Miniatura de la galería de Desarrollo de digestor Kjeldahl de multiples bloques" onclick="cambiarImagen('main-img-p5', this.src)" class="thumb" loading="lazy"><img src="digestor-kjeldahl-3-bloques-03.webp" alt="Miniatura de la galería de Desarrollo de digestor Kjeldahl de multiples bloques" onclick="cambiarImagen('main-img-p5', this.src)" class="thumb" loading="lazy"><img src="digestor-kjeldahl-3-bloques-04.webp" alt="Miniatura de la galería de Desarrollo de digestor Kjeldahl de multiples bloques" onclick="cambiarImagen('main-img-p5', this.src)" class="thumb" loading="lazy">
+                                    <img src="digestor-kjeldahl-3-bloques-01.webp" alt="Miniatura de la galería de Desarrollo de digestor Kjeldahl de múltiples bloques" onclick="cambiarImagen('main-img-p5', this.src)" class="thumb" loading="lazy"><img src="digestor-kjeldahl-3-bloques-02.webp" alt="Miniatura de la galería de Desarrollo de digestor Kjeldahl de múltiples bloques" onclick="cambiarImagen('main-img-p5', this.src)" class="thumb" loading="lazy"><img src="digestor-kjeldahl-3-bloques-03.webp" alt="Miniatura de la galería de Desarrollo de digestor Kjeldahl de múltiples bloques" onclick="cambiarImagen('main-img-p5', this.src)" class="thumb" loading="lazy"><img src="digestor-kjeldahl-3-bloques-04.webp" alt="Miniatura de la galería de Desarrollo de digestor Kjeldahl de múltiples bloques" onclick="cambiarImagen('main-img-p5', this.src)" class="thumb" loading="lazy">
                                 </div>
                             </div>
                             <div class="modal-info">
@@ -551,17 +645,17 @@
                 </div>
                 <div id="modal-proyecto-7" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2025-05</span>
-                            <h2>Calentador e instalación electrica para planta piloto</h2>
+                            <h2>Calentador e instalación eléctrica para planta piloto</h2>
                         </div>
                         <div class="modal-grid">
                             <div class="modal-gallery-container">
-                                <img id="main-img-p7" src="calentador-planta-piloto-aceite-uva-01.webp" class="modal-main-img" alt="Imagen en detalle: Calentador e instalación electrica para planta piloto">
+                                <img id="main-img-p7" src="calentador-planta-piloto-aceite-uva-01.webp" class="modal-main-img" alt="Imagen en detalle: Calentador e instalación eléctrica para planta piloto">
                                 <div class="modal-thumbnails">
-                                    <img src="calentador-planta-piloto-aceite-uva-01.webp" alt="Miniatura de la galería de Calentador e instalación electrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy"><img src="calentador-planta-piloto-aceite-uva-02.webp" alt="Miniatura de la galería de Calentador e instalación electrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy"><img src="calentador-planta-piloto-aceite-uva-03.webp" alt="Miniatura de la galería de Calentador e instalación electrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy"><img src="calentador-planta-piloto-aceite-uva-04.webp" alt="Miniatura de la galería de Calentador e instalación electrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy"><img src="calentador-planta-piloto-aceite-uva-05.webp" alt="Miniatura de la galería de Calentador e instalación electrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy">
+                                    <img src="calentador-planta-piloto-aceite-uva-01.webp" alt="Miniatura de la galería de Calentador e instalación eléctrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy"><img src="calentador-planta-piloto-aceite-uva-02.webp" alt="Miniatura de la galería de Calentador e instalación eléctrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy"><img src="calentador-planta-piloto-aceite-uva-03.webp" alt="Miniatura de la galería de Calentador e instalación eléctrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy"><img src="calentador-planta-piloto-aceite-uva-04.webp" alt="Miniatura de la galería de Calentador e instalación eléctrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy"><img src="calentador-planta-piloto-aceite-uva-05.webp" alt="Miniatura de la galería de Calentador e instalación eléctrica para planta piloto" onclick="cambiarImagen('main-img-p7', this.src)" class="thumb" loading="lazy">
                                 </div>
                             </div>
                             <div class="modal-info">
@@ -571,11 +665,11 @@
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">🎯 2. NECESIDAD A SOLUCIONAR</h4>
-                                    <p>Se requería un sistema para calentar agua y controlar con precisión la temperatura de la misma, en conjunto con esto se necesitaba el tablero de conexión.</p>
+                                    <p>Se requería calentar agua y controlar su temperatura con precisión en una planta piloto, además de resolver la alimentación y protección eléctrica del sistema.</p>
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">💡 3. SOLUCIÓN DESARROLLADA</h4>
-                                    <p>Se armó el calentador basado en una resistencia eléctrica comercial, priorizando el mantenimiento de la misma, la estructura de esta fue realizada en acero inoxidable debido a la necesidad de estar constantemente en agua. Se aisló térmica y electricamente el exterior del recipiente para asegurar la seguridad del personal, la instalación y el proceso. Junto con esto se armó el tablero eléctrico y el controlador de temperatura.</p>
+                                    <p>Se construyó un calentador con resistencia comercial reemplazable y estructura de acero inoxidable para inmersión. El recipiente se aisló térmica y eléctricamente, y se integró un tablero con control de temperatura mediante SSR.</p>
                                 </div>
                                 
                     <div class="info-block">
@@ -590,7 +684,7 @@
                 </div>
                 <div id="modal-proyecto-10" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2025-05</span>
@@ -629,7 +723,7 @@
                 </div>
                 <div id="modal-proyecto-12" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">REPARACIÓN</span>
                             <span class="tag-date">2025-03</span>
@@ -668,7 +762,7 @@
                 </div>
                 <div id="modal-proyecto-11" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">VALIDACIÓN</span>
                             <span class="tag-date">2024-06</span>
@@ -692,7 +786,7 @@
                                 </div>
                                 <div class="info-block">
                                     <h4 class="info-title">💡 3. SOLUCIÓN DESARROLLADA</h4>
-                                    <p>Se desarrolló un agitador vertical con motor brushless de 1500 RPM y 0,8 Kg/cm de torque, regulado mediante PWM, lo que permite mantener en gran parte el torque inicial con una variación prácticamente continua/finita de las revoluciones. Se incorporó un timer para setear el tiempo de funcionamiento del equipo, y un sistema de regulación de posición con ajuste tanto de verticalidad como de horizontalidad. El uso de un motor brushless garantiza una gran durabilidad para uso continuo.</p>
+                                    <p>Se desarrolló un agitador vertical con motor brushless de 1500 RPM y 0,8 kg·cm de torque, regulado por PWM para conservar buena parte del torque en un amplio rango de velocidades. Se incorporaron un temporizador y ajustes de posición vertical y horizontal.</p>
                                 </div>
                                 
                     <div class="info-block">
@@ -707,7 +801,40 @@
                 </div>
             <!-- FIN-MODALES -->
             </div>
+
+            <div class="info-box project-cta">
+                <div>
+                    <span class="badge">CONSULTA</span>
+                    <h3>¿Tenés un equipo detenido o necesitás desarrollar algo similar?</h3>
+                    <p>Podemos evaluar si conviene repararlo, modernizarlo o desarrollar una alternativa.</p>
+                </div>
+                <a class="btn-primary" href="https://wa.me/5493426313828?text=Hola%20Ayrton,%20vi%20tus%20proyectos%20y%20quiero%20consultarte%20por%20un%20trabajo%20similar." target="_blank" rel="noopener noreferrer">ENVIAR CONSULTA</a>
+            </div>
             
+        </section>
+
+        <section id="preguntas" class="section-padding container faq-section" aria-labelledby="faq-titulo">
+            <div class="section-title text-center">
+                <h2 id="faq-titulo">Preguntas frecuentes</h2>
+            </div>
+            <div class="faq-list">
+                <details>
+                    <summary>¿Qué equipos reparás?</summary>
+                    <p>Instrumental científico, equipos de medición, placas electrónicas, fuentes de alimentación y sistemas de control. Si el equipo es especial o discontinuado, enviame marca, modelo, fotos y una descripción de la falla para evaluar el caso.</p>
+                </details>
+                <details>
+                    <summary>¿Podés desarrollar un equipo desde cero?</summary>
+                    <p>Sí. Según el proyecto, el trabajo puede incluir circuito electrónico, PCB, firmware, software de control, gabinete e integración del prototipo.</p>
+                </details>
+                <details>
+                    <summary>¿Trabajás únicamente en Santa Fe?</summary>
+                    <p>El taller está en la ciudad de Santa Fe. Atiendo principalmente a clientes de la zona y también evalúo proyectos de la región cuando el equipo o la documentación pueden enviarse.</p>
+                </details>
+                <details>
+                    <summary>¿Qué información conviene enviar?</summary>
+                    <p>Para una primera evaluación, indicá el tipo de equipo o desarrollo, marca y modelo si corresponde, falla u objetivo, ciudad y cualquier foto o documentación disponible.</p>
+                </details>
+            </div>
         </section>
 
     </main>
@@ -717,20 +844,20 @@
             
             <!-- Columna Izquierda: Información -->
             <div class="contact-info">
-                <h2>Solicitá Asesoramiento en Soluciones Electrónicas</h2>
-                <p class="subtitle-bold">¿Necesitás desarrollar un proyecto de hardware, fabricar un prototipo funcional o ejecutar el diagnóstico de instrumental complejo?</p>
+                <h2>Solicitá asesoramiento técnico</h2>
+                <p class="subtitle-bold">¿Necesitás reparar un equipo, fabricar un prototipo o desarrollar hardware a medida?</p>
                 
-                <p>En Vincelect desarrollo soluciones en diseño de circuitos, integración de sistemas, impresión 3D y reparación de equipamiento científico para empresas y laboratorios desde la ciudad de <strong>Santa Fe</strong> para toda la región.</p>
+                <p>Contame qué necesitás y, si se trata de una reparación, incluí la marca, el modelo y una descripción de la falla. Trabajo desde la ciudad de <strong>Santa Fe</strong> para clientes de la región.</p>
                 
                 <ul class="contact-list">
                     <li>
                         <!-- Ícono WhatsApp -->
                         <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.487-1.761-1.663-2.06-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-                        <span>Consultas (+54 9) 3426313828</span>
+                        <a href="https://wa.me/5493426313828?text=Hola%20Ayrton,%20vi%20la%20web%20de%20Vincelect%20y%20quiero%20hacerte%20una%20consulta." target="_blank" rel="noopener noreferrer">WhatsApp: +54 9 342 631-3828</a>
                     </li>
                     <li>
                         <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                        <span>contacto@vincelect.com.ar</span>
+                        <a href="mailto:contacto@vincelect.com.ar">contacto@vincelect.com.ar</a>
                     </li>
                 </ul>
 
@@ -749,24 +876,29 @@
 
             <div class="contact-form-wrapper">
                 <form id="form-contacto" action="https://formspree.io/f/xvkppjee" method="POST" class="contact-form">
-                    <input type="text" name="nombre" placeholder="Nombre y apellido" required>
-                    <input type="tel" name="telefono" placeholder="Número de contacto">
-                    <input type="email" name="email" placeholder="E-mail" required>
+                    <label for="nombre">Nombre y apellido</label>
+                    <input id="nombre" type="text" name="nombre" autocomplete="name" placeholder="Tu nombre" required>
+                    <label for="telefono">Teléfono o WhatsApp <span>(opcional)</span></label>
+                    <input id="telefono" type="tel" name="telefono" autocomplete="tel" placeholder="Ej.: 342 555-1234">
+                    <label for="email">Correo electrónico</label>
+                    <input id="email" type="email" name="email" autocomplete="email" placeholder="nombre@empresa.com" required>
                     
-                    <select name="servicio" required>
-                        <option value="" disabled selected>Tipo de Servicio</option>
-                        <option value="desarrollo">Diseño y Desarrollo de Hardware</option>
-                        <option value="reparacion">Diagnóstico y Reparación de Instrumental</option>
-                        <option value="impresion">Fabricación e Impresión 3D</option>
+                    <label for="servicio">¿Qué necesitás?</label>
+                    <select id="servicio" name="servicio" required>
+                        <option value="" disabled selected>Seleccioná una opción</option>
+                        <option value="desarrollo">Diseño y desarrollo de hardware</option>
+                        <option value="reparacion">Diagnóstico y reparación de instrumental</option>
+                        <option value="impresion">Fabricación e impresión 3D</option>
                         <option value="otro">Otro</option>
                     </select>
 
-                    <label for="mensaje" class="form-label">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" placeholder="Detallá tu requerimiento..." rows="4" required></textarea>
+                    <label for="mensaje">Descripción del equipo o proyecto</label>
+                    <textarea id="mensaje" name="mensaje" placeholder="Marca, modelo, falla u objetivo, ciudad y cualquier dato que pueda ayudar..." rows="5" required></textarea>
+                    <input type="hidden" name="_subject" value="Nueva consulta desde vincelect.com.ar">
                     
-                    <button type="submit" class="btn-submit">Enviar</button>
+                    <button type="submit" class="btn-submit">Enviar consulta</button>
                     <!-- Acá van a aparecer los mensajes de error o éxito -->
-                    <p id="form-status" class="form-status-msg"></p>
+                    <p id="form-status" class="form-status-msg" role="status" aria-live="polite"></p>
                 </form>
             </div>
 
@@ -792,7 +924,7 @@
     </footer>
 
     <!-- Botón flotante de WhatsApp -->
-    <a href="https://wa.me/5493426313828?text=Hola%20Vincelect,%20me%20comunico%20desde%20la%20web%20para%20hacer%20una%20consulta." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+    <a href="https://wa.me/5493426313828?text=Hola%20Ayrton,%20vi%20la%20web%20de%20Vincelect%20y%20quiero%20hacerte%20una%20consulta." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contactar a Vincelect por WhatsApp">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="32" height="32" fill="currentColor">
             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.006-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.593 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.337-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
         </svg>
@@ -807,8 +939,12 @@
         // reconstruye el DOM, así que no le esconde contenido a Google.
         function filtrarProyectos(evento, filtro) {
             if (evento) {
-                document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+                document.querySelectorAll('.tab-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.setAttribute('aria-pressed', 'false');
+                });
                 evento.target.classList.add('active');
+                evento.target.setAttribute('aria-pressed', 'true');
             }
 
             document.querySelectorAll('#contenedor-tarjetas .project-card').forEach(tarjeta => {
@@ -864,6 +1000,7 @@
     <script>
         const formContacto = document.getElementById('form-contacto');
         const statusMsg = document.getElementById('form-status');
+        const submitButton = formContacto?.querySelector('button[type="submit"]');
 
         if (formContacto) {
             formContacto.addEventListener('submit', async function(event) {
@@ -880,6 +1017,8 @@
 
                 statusMsg.textContent = "Enviando mensaje...";
                 statusMsg.className = "form-status-msg info";
+                submitButton.disabled = true;
+                submitButton.textContent = "Enviando...";
                 
                 const data = new FormData(formContacto);
                 
@@ -893,16 +1032,19 @@
                     });
                     
                     if (response.ok) {
-                        statusMsg.textContent = "✅ ¡Mensaje enviado con éxito! Te responderemos a la brevedad.";
+                        statusMsg.textContent = "✅ Recibí tu consulta. Te voy a responder a la brevedad.";
                         statusMsg.className = "form-status-msg success";
                         formContacto.reset(); 
                     } else {
-                        statusMsg.textContent = "❌ Hubo un error de parte del servidor al enviar. Revisá los datos.";
+                        statusMsg.textContent = "❌ No se pudo enviar la consulta. Revisá los datos o escribime por WhatsApp.";
                         statusMsg.className = "form-status-msg error";
                     }
                 } catch (error) {
-                    statusMsg.textContent = "❌ Error de conexión. Intentá de nuevo más tarde.";
+                    statusMsg.textContent = "❌ No hay conexión. Intentá nuevamente o escribime por WhatsApp.";
                     statusMsg.className = "form-status-msg error";
+                } finally {
+                    submitButton.disabled = false;
+                    submitButton.textContent = "Enviar consulta";
                 }
             });
         }
