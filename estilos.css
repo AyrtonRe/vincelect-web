@@ -1,4 +1,16 @@
 /* Variables de Color */
+.project-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+}
+
+.project-links .service-link {
+    align-self: center;
+    margin-top: 0;
+}
+
 :root {
     --color-primary: #143A70; 
     --color-primary-light: #1E54A0;

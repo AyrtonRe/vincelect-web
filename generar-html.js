@@ -1,7 +1,6 @@
 // generar-html.js
 // -----------------------------------------------------------------------
-// Genera el HTML ESTÁTICO de las tarjetas y modales de proyectos a partir
-// de proyectos.js, y lo inyecta dentro de index.html (entre marcadores).
+// Genera tarjetas, modales, páginas individuales y sitemap desde proyectos.js.
 //
 // Por qué existe esto:
 // Antes, index.html traía <div id="contenedor-tarjetas"></div> VACÍO, y
@@ -16,8 +15,8 @@
 // Cómo usarlo cada vez que agregues/edites un proyecto:
 //   1) Editá proyectos.js como siempre.
 //   2) Corré:  node generar-html.js
-//   3) Subí el index.html resultante a tu hosting (junto con proyectos.js
-//      y estilos.css, que no cambian de rol).
+//   3) Subí index.html, proyectos/, sitemap.xml, proyecto.css y las imágenes
+//      junto con el resto del sitio. Cada proyecto conserva su slug publicado.
 //
 // El JS de filtrado en el navegador ahora solo hace show/hide de las
 // tarjetas ya existentes (no reconstruye el DOM), así que sigue andando
@@ -27,6 +26,7 @@
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
+const { validarProyectos, generarPaginas } = require('./generar-paginas');
 
 const DIR = __dirname;
 const RUTA_PROYECTOS_JS = path.join(DIR, 'proyectos.js');
@@ -48,6 +48,7 @@ if (!Array.isArray(proyectos)) {
   console.error('No se pudo leer el array "proyectos" desde proyectos.js');
   process.exit(1);
 }
+validarProyectos(proyectos, DIR);
 
 // --- 2. Helpers de escape (por las dudas con caracteres especiales) ----
 function escapeHtml(str) {
@@ -73,7 +74,10 @@ proyectosOrdenados.forEach((proyecto) => {
                     <span class="badge right">${escapeHtml(proyecto.badge)}</span>
                     <h3>${escapeHtml(proyecto.titulo)}</h3>
                     <p>${escapeHtml(proyecto.descripcionCorta)}</p>
-                    <a href="#modal-proyecto-${escapeHtml(proyecto.id)}" class="btn-primary">VER DETALLES Y GALERÍA</a>
+                    <div class="project-links">
+                        <a href="/proyectos/${escapeHtml(proyecto.slug)}/" class="btn-primary">VER PROYECTO Y GALERÍA</a>
+                        <a href="#modal-proyecto-${escapeHtml(proyecto.id)}" class="service-link">Vista rápida</a>
+                    </div>
                 </div>`;
 
   let techTags = '';
@@ -104,11 +108,12 @@ proyectosOrdenados.forEach((proyecto) => {
   htmlModales += `
                 <div id="modal-proyecto-${escapeHtml(proyecto.id)}" class="modal-overlay">
                     <div class="modal-content">
-                        <a href="#hardware" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
+                        <a href="#proyectos" class="modal-close" aria-label="Cerrar modal de proyecto">×</a>
                         <div class="modal-header">
                             <span class="tag-title">${escapeHtml(proyecto.tagCategoria)}</span>
                             <span class="tag-date">${escapeHtml(proyecto.tagFecha)}</span>
                             <h2>${escapeHtml(proyecto.titulo)}</h2>
+                            <a href="/proyectos/${escapeHtml(proyecto.slug)}/" class="service-link">Abrir página del proyecto</a>
                         </div>
                         <div class="modal-grid">
                             <div class="modal-gallery-container">
@@ -147,12 +152,13 @@ function inyectar(html, marcadorInicio, marcadorFin, contenido) {
   if (!regex.test(html)) {
     throw new Error(`No se encontraron los marcadores ${marcadorInicio} / ${marcadorFin} en index.html`);
   }
-  return html.replace(regex, `$1\n${contenido}\n            $2`);
+  return html.replace(regex, (_, inicio, fin) => `${inicio}\n${contenido}\n            ${fin}`);
 }
 
 indexHtml = inyectar(indexHtml, '<!-- INICIO-TARJETAS -->', '<!-- FIN-TARJETAS -->', htmlTarjetas);
 indexHtml = inyectar(indexHtml, '<!-- INICIO-MODALES -->', '<!-- FIN-MODALES -->', htmlModales);
 
 fs.writeFileSync(RUTA_INDEX, indexHtml, 'utf8');
+generarPaginas(proyectosOrdenados, DIR, indexHtml);
 
-console.log(`OK: ${proyectosOrdenados.length} proyectos escritos en index.html`);
+console.log(`OK: ${proyectosOrdenados.length} proyectos con tarjetas, modales, páginas individuales y sitemap.`);
