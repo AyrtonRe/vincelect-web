@@ -52,10 +52,7 @@
       <image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-01.webp</image:loc>
       <image:title>Desarrollo de potenciostato portátil</image:title>
     </image:image>
-    <image:image>
-      <image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-02.webp</image:loc>
-      <image:title>Desarrollo de potenciostato portátil - imagen 2</image:title>
-    </image:image>
+
     <image:image>
       <image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-03.webp</image:loc>
       <image:title>Desarrollo de potenciostato portátil - imagen 3</image:title>
@@ -240,7 +237,7 @@
   <url>
     <loc>https://vincelect.com.ar/proyectos/potenciostato-portatil-eis/</loc>
     <image:image><image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-01.webp</image:loc></image:image>
-    <image:image><image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-02.webp</image:loc></image:image>
+
     <image:image><image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-03.webp</image:loc></image:image>
     <image:image><image:loc>https://vincelect.com.ar/potenciostato-portatil-eis-04.webp</image:loc></image:image>
   </url>
