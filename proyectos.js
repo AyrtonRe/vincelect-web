@@ -78,7 +78,7 @@ const proyectos = [
             "Costo final de un 30% respecto a equipos de la misma capacidad.",
             "Equipo compacto y de bajo consumo, ideal para utilizarse en análisis de campo."
         ],
-        imagenes: ["potenciostato-portatil-eis-01.webp", "potenciostato-portatil-eis-02.webp", "potenciostato-portatil-eis-03.webp", "potenciostato-portatil-eis-04.webp"]
+        imagenes: ["potenciostato-portatil-eis-01.webp", "potenciostato-portatil-eis-03.webp", "potenciostato-portatil-eis-04.webp"]
     },
     {
         id: "5",
