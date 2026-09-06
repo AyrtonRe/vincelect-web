@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://vincelect.com.ar/</loc>
-    <lastmod>2026-09-04</lastmod>
+    <lastmod>2026-09-05</lastmod>
     <image:image>
       <image:loc>https://vincelect.com.ar/daq-cromatografo-gases-01.webp</image:loc>
       <image:title>Sistema de adquisición de datos para cromatógrafo</image:title>
@@ -323,5 +323,11 @@
     <image:image><image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-04.webp</image:loc></image:image>
     <image:image><image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-05.webp</image:loc></image:image>
     <image:image><image:loc>https://vincelect.com.ar/agitador-vertical-pwm-laboratorio-06.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://vincelect.com.ar/proyectos/controlador-temperatura-on-off/</loc>
+    <image:image><image:loc>https://vincelect.com.ar/controlador-temperatura-on-off-modelos-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://vincelect.com.ar/controlador-temperatura-on-off-toma-02.webp</image:loc></image:image>
+    <image:image><image:loc>https://vincelect.com.ar/controlador-temperatura-on-off-bananas-03.webp</image:loc></image:image>
   </url>
 </urlset>

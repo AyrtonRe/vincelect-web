@@ -245,5 +245,35 @@ const proyectos = [
         "Mayor vida útil del equipo ante futuros derrames de reactivos."
     ],
     imagenes: ["reparacion-agitador-calentador-dlab-01.webp", "reparacion-agitador-calentador-dlab-02.webp", "reparacion-agitador-calentador-dlab-03.webp", "reparacion-agitador-calentador-dlab-04.webp", "reparacion-agitador-calentador-dlab-05.webp", "reparacion-agitador-calentador-dlab-06.webp", "reparacion-agitador-calentador-dlab-07.webp"]
-}
+},
+    {
+        "id": "13",
+        "slug": "controlador-temperatura-on-off",
+        "seoDescripcion": "Controlador de temperatura On-Off en dos modelos: salida tipo toma o conectores banana. Diseño de gabinete y conexión eléctrica por Vincelect, Santa Fe.",
+        "tipo": "armado",
+        "badge": "2026",
+        "titulo": "Controlador de temperatura On-Off",
+        "descripcionCorta": "Diseño de la estructura y conexión eléctrica de un controlador de temperatura On-Off, en dos modelos: uno con salida tipo toma y otro con salida mediante conectores banana.",
+        "tagCategoria": "CONTROL DE TEMPERATURA",
+        "tagFecha": "2026-03",
+        "tecnologias": [
+            "Control On-Off",
+            "Diseño de estructura",
+            "Conexión eléctrica",
+            "Salida tipo toma",
+            "Conectores banana"
+        ],
+        "necesidad": "Se requería un equipo compacto para controlar la temperatura mediante el encendido y apagado de la salida, con una conexión adaptada al equipo a utilizar.",
+        "solucion": "Se realizó el armado de un controlador de temperatura On-Off con indicador digital, ajuste de la temperatura de consigna e interruptor de encendido, integrado en un gabinete. Se prepararon dos modelos: uno con salida tipo toma para conectar mediante una ficha, y otro con salida a través de conectores banana. Ambos emplean control On-Off: la salida se activa o desactiva según la temperatura medida y la consigna configurada.",
+        "beneficios": [
+            "Dos modelos de conexión: salida tipo toma o salida con conectores banana.",
+            "Visualización de la temperatura medida y ajuste de la consigna desde el panel frontal.",
+            "Gabinete compacto que reúne el controlador, el interruptor y las conexiones."
+        ],
+        "imagenes": [
+            "controlador-temperatura-on-off-modelos-01.webp",
+            "controlador-temperatura-on-off-toma-02.webp",
+            "controlador-temperatura-on-off-bananas-03.webp"
+        ]
+    }
 ];
